@@ -4,7 +4,98 @@
 
 **仓库、镜像和发布包均不预装数据。** 上传自己的 Compustat 季度 CSV/ZIP、CRSP 日度 CSV/ZIP 后使用。公司标识保留字符串，清洗与更新保留原始记录追溯和不可变版本。679 字段的技术字典、计算规则及核验指纹属于程序配置；不包含原始财务数值或行情观测。
 
-## Docker 启动
+## 推荐 Docker Compose 部署（直接使用已构建镜像）
+
+推荐使用仓库中的 [compose.deploy.yaml](compose.deploy.yaml)。这个文件可独立使用，适合云服务器、NAS 和本机 Docker：固定镜像版本，自动选择 amd64/arm64，使用持久卷保存数据，并配置自动重启、正常停机等待和日志轮转。服务以镜像内的非 root 用户运行，继承镜像健康检查。
+
+### 1. 保存部署文件
+
+将以下内容保存为 `compose.deploy.yaml`，或者直接下载仓库同名文件：
+
+```yaml
+services:
+  financial-api:
+    image: ${FINANCIAL_IMAGE:-ghcr.io/liweihan389/financial_api:0.3.1}
+    init: true
+    ports:
+      - "${FINANCIAL_BIND_ADDRESS:-127.0.0.1}:${FINANCIAL_PORT:-8765}:8765"
+    environment:
+      FINANCIAL_DATA_DIR: /data
+      FINANCIAL_API_TOKEN: "${FINANCIAL_API_TOKEN:?Configure FINANCIAL_API_TOKEN in .env}"
+      FINANCIAL_PUBLIC_URL: "${FINANCIAL_PUBLIC_URL:-http://127.0.0.1:8765}"
+      FINANCIAL_ALLOW_FULL_IMPORT: "${FINANCIAL_ALLOW_FULL_IMPORT:-1}"
+      SEC_USER_AGENT: "${SEC_USER_AGENT:-}"
+    volumes:
+      - financial-data:/data
+    restart: unless-stopped
+    stop_grace_period: 60s
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+volumes:
+  financial-data:
+```
+
+`/data` 是应用的数据目录，`financial-data` 是 Docker 管理的持久卷。首次启动为空；上传文件、数据库、SEC 快照、历史记录及导出都会写入该卷。
+
+### 2. 配置同目录的 `.env`
+
+```dotenv
+# 必填：填入自己生成的随机令牌，至少 32 个字符。
+FINANCIAL_API_TOKEN=
+FINANCIAL_IMAGE=ghcr.io/liweihan389/financial_api:0.3.1
+FINANCIAL_BIND_ADDRESS=127.0.0.1
+FINANCIAL_PORT=8765
+FINANCIAL_PUBLIC_URL=http://127.0.0.1:8765
+FINANCIAL_ALLOW_FULL_IMPORT=1
+# 可选：SEC 应用名称和联系邮箱；留空时不启用联网更新。
+SEC_USER_AGENT=
+```
+
+可用 `openssl rand -hex 32` 生成令牌，填到 `FINANCIAL_API_TOKEN=` 后面；留空时 Compose 会明确报错。若已克隆仓库，执行 `python3 scripts/configure.py` 即可自动创建包含随机令牌的 `.env`。不要把自己的 `.env` 上传到 GitHub。
+
+**从其他电脑访问云服务器或 NAS**，需要同时修改两项：
+
+```dotenv
+FINANCIAL_BIND_ADDRESS=0.0.0.0
+FINANCIAL_PUBLIC_URL=http://你的服务器IP:8765
+```
+
+然后访问 `http://你的服务器IP:8765/ui`，并确保服务器的网络配置允许访问该端口。使用 HTTPS 反向代理时，`FINANCIAL_PUBLIC_URL` 填实际的 HTTPS 域名；代理与服务同机时可保留 `127.0.0.1` 绑定。更改宿主机端口后，URL 中也要使用相同端口。
+
+### 3. 启动和导入数据
+
+在上述两个文件所在目录执行：
+
+```sh
+docker compose -f compose.deploy.yaml config --quiet
+docker compose -f compose.deploy.yaml pull
+docker compose -f compose.deploy.yaml up -d
+docker compose -f compose.deploy.yaml ps
+```
+
+默认管理页为 http://127.0.0.1:8765/ui。在“服务连接”中输入 `.env` 的令牌，随后上传并导入自己的季度财务和日度行情文件即可。首次空库会显示导入引导。API 文档在 `/docs`，MCP 地址为 `/mcp`；两者的数据请求使用同一访问令牌。
+
+常用维护命令：
+
+```sh
+# 查看日志
+docker compose -f compose.deploy.yaml logs -f --tail=100
+# 修改 .env 后应用配置，或重建容器（保留数据卷）
+docker compose -f compose.deploy.yaml up -d
+# 停止并移除容器，保留已导入数据
+docker compose -f compose.deploy.yaml down
+```
+
+再次在同一目录启动会继续使用原卷。保持项目目录/Compose 项目名不变；迁移或改名时，请按 [部署与迁移说明](DEPLOYMENT.md#数据持久化与迁移) 指定原数据卷。只运行一个服务实例。需要升级镜像时，修改 `.env` 的 `FINANCIAL_IMAGE`，再执行 `pull` 和 `up -d`。**`down -v` 会删除数据卷；仅在确实要清空数据时使用。**
+
+## Docker 启动（克隆仓库方式）
 
 ```sh
 git clone https://github.com/liweihan389/financial_api.git
