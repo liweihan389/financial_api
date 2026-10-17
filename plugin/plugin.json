@@ -1,0 +1,23 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "market-fundamentals",
+  "version": "0.3.1",
+  "description": "查询财务与日度行情、SEC 财务补充和证据核查、估值指标及可追溯导出。",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "股市财务数据库",
+        "shortDescription": "可追溯财务查询、PE 工具与季度及日度历史筛选",
+        "longDescription": "查询财务与日度行情、SEC 财务补充和证据核查、估值指标及可追溯导出。",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "defaultPrompt": [
+          "查询 AAPL 的财务数据和 PE TTM，说明数据日期与计算限制。",
+          "使用 2025-12-31 当时近似可见的财务数据筛选美国公司。"
+        ]
+      }
+    }
+  }
+}

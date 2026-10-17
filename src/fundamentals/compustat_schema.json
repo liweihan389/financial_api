@@ -1,0 +1,4076 @@
+{
+  "costat": {
+    "name": "costat",
+    "type": "VARCHAR",
+    "description": "costat",
+    "unit": "source_native; do not assume millions"
+  },
+  "curcdq": {
+    "name": "curcdq",
+    "type": "VARCHAR",
+    "description": "curcdq",
+    "unit": "source_native; do not assume millions"
+  },
+  "datafmt": {
+    "name": "datafmt",
+    "type": "VARCHAR",
+    "description": "datafmt",
+    "unit": "source_native; do not assume millions"
+  },
+  "indfmt": {
+    "name": "indfmt",
+    "type": "VARCHAR",
+    "description": "indfmt",
+    "unit": "source_native; do not assume millions"
+  },
+  "consol": {
+    "name": "consol",
+    "type": "VARCHAR",
+    "description": "consol",
+    "unit": "source_native; do not assume millions"
+  },
+  "gvkey": {
+    "name": "gvkey",
+    "type": "VARCHAR",
+    "description": "Global Company Key",
+    "unit": "source_native; do not assume millions"
+  },
+  "datadate": {
+    "name": "datadate",
+    "type": "DATE",
+    "description": "datadate",
+    "unit": "source_native; do not assume millions"
+  },
+  "conm": {
+    "name": "conm",
+    "type": "VARCHAR",
+    "description": "Company Name",
+    "unit": "source_native; do not assume millions"
+  },
+  "tic": {
+    "name": "tic",
+    "type": "VARCHAR",
+    "description": "Ticker Symbol",
+    "unit": "source_native; do not assume millions"
+  },
+  "cusip": {
+    "name": "cusip",
+    "type": "VARCHAR",
+    "description": "CUSIP",
+    "unit": "source_native; do not assume millions"
+  },
+  "cik": {
+    "name": "cik",
+    "type": "VARCHAR",
+    "description": "CIK Number",
+    "unit": "source_native; do not assume millions"
+  },
+  "exchg": {
+    "name": "exchg",
+    "type": "DOUBLE",
+    "description": "Stock Exchange Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "fyr": {
+    "name": "fyr",
+    "type": "DOUBLE",
+    "description": "Fiscal Year-end Month",
+    "unit": "source_native; do not assume millions"
+  },
+  "fic": {
+    "name": "fic",
+    "type": "VARCHAR",
+    "description": "Current ISO Country Code - Incorporation",
+    "unit": "source_native; do not assume millions"
+  },
+  "add1": {
+    "name": "add1",
+    "type": "VARCHAR",
+    "description": "Address Line 1",
+    "unit": "source_native; do not assume millions"
+  },
+  "add2": {
+    "name": "add2",
+    "type": "VARCHAR",
+    "description": "Address Line 2",
+    "unit": "source_native; do not assume millions"
+  },
+  "add3": {
+    "name": "add3",
+    "type": "VARCHAR",
+    "description": "Address Line 3",
+    "unit": "source_native; do not assume millions"
+  },
+  "add4": {
+    "name": "add4",
+    "type": "VARCHAR",
+    "description": "Address Line 4",
+    "unit": "source_native; do not assume millions"
+  },
+  "addzip": {
+    "name": "addzip",
+    "type": "VARCHAR",
+    "description": "Postal Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "busdesc": {
+    "name": "busdesc",
+    "type": "VARCHAR",
+    "description": "S&P Business Description",
+    "unit": "source_native; do not assume millions"
+  },
+  "city": {
+    "name": "city",
+    "type": "VARCHAR",
+    "description": "City",
+    "unit": "source_native; do not assume millions"
+  },
+  "conml": {
+    "name": "conml",
+    "type": "VARCHAR",
+    "description": "Company Legal Name",
+    "unit": "source_native; do not assume millions"
+  },
+  "county": {
+    "name": "county",
+    "type": "VARCHAR",
+    "description": "County Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "dldte": {
+    "name": "dldte",
+    "type": "DATE",
+    "description": "Research Company Deletion Date",
+    "unit": "source_native; do not assume millions"
+  },
+  "dlrsn": {
+    "name": "dlrsn",
+    "type": "VARCHAR",
+    "description": "Research Co Reason for Deletion",
+    "unit": "source_native; do not assume millions"
+  },
+  "ein": {
+    "name": "ein",
+    "type": "VARCHAR",
+    "description": "Employer Identification Number",
+    "unit": "source_native; do not assume millions"
+  },
+  "fax": {
+    "name": "fax",
+    "type": "VARCHAR",
+    "description": "Fax Number",
+    "unit": "source_native; do not assume millions"
+  },
+  "fyrc": {
+    "name": "fyrc",
+    "type": "DOUBLE",
+    "description": "Current Fiscal Year End Month",
+    "unit": "source_native; do not assume millions"
+  },
+  "ggroup": {
+    "name": "ggroup",
+    "type": "VARCHAR",
+    "description": "GIC Groups",
+    "unit": "source_native; do not assume millions"
+  },
+  "gind": {
+    "name": "gind",
+    "type": "VARCHAR",
+    "description": "GIC Industries",
+    "unit": "source_native; do not assume millions"
+  },
+  "gsector": {
+    "name": "gsector",
+    "type": "VARCHAR",
+    "description": "GIC Sectors",
+    "unit": "source_native; do not assume millions"
+  },
+  "gsubind": {
+    "name": "gsubind",
+    "type": "VARCHAR",
+    "description": "GIC Sub-Industries",
+    "unit": "source_native; do not assume millions"
+  },
+  "idbflag": {
+    "name": "idbflag",
+    "type": "VARCHAR",
+    "description": "International, Domestic, Both Indicator",
+    "unit": "source_native; do not assume millions"
+  },
+  "incorp": {
+    "name": "incorp",
+    "type": "VARCHAR",
+    "description": "Current State/Province of Incorporation Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "ipodate": {
+    "name": "ipodate",
+    "type": "DATE",
+    "description": "Company Initial Public Offering Date",
+    "unit": "source_native; do not assume millions"
+  },
+  "loc": {
+    "name": "loc",
+    "type": "VARCHAR",
+    "description": "Current ISO Country Code - Headquarters",
+    "unit": "source_native; do not assume millions"
+  },
+  "naics": {
+    "name": "naics",
+    "type": "VARCHAR",
+    "description": "North American Industry Classification Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "phone": {
+    "name": "phone",
+    "type": "VARCHAR",
+    "description": "Phone Number",
+    "unit": "source_native; do not assume millions"
+  },
+  "prican": {
+    "name": "prican",
+    "type": "VARCHAR",
+    "description": "Current Primary Issue Tag - Canada",
+    "unit": "source_native; do not assume millions"
+  },
+  "prirow": {
+    "name": "prirow",
+    "type": "VARCHAR",
+    "description": "Primary Issue Tag - Rest of World",
+    "unit": "source_native; do not assume millions"
+  },
+  "priusa": {
+    "name": "priusa",
+    "type": "VARCHAR",
+    "description": "Current Primary Issue Tag - US",
+    "unit": "source_native; do not assume millions"
+  },
+  "sic": {
+    "name": "sic",
+    "type": "VARCHAR",
+    "description": "Standard Industry Classification Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcindcd": {
+    "name": "spcindcd",
+    "type": "DOUBLE",
+    "description": "S&P Industry Sector Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcseccd": {
+    "name": "spcseccd",
+    "type": "DOUBLE",
+    "description": "S&P Economic Sector Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcsrc": {
+    "name": "spcsrc",
+    "type": "VARCHAR",
+    "description": "S&P Quality Ranking - Current",
+    "unit": "source_native; do not assume millions"
+  },
+  "state": {
+    "name": "state",
+    "type": "VARCHAR",
+    "description": "State/Province",
+    "unit": "source_native; do not assume millions"
+  },
+  "stko": {
+    "name": "stko",
+    "type": "DOUBLE",
+    "description": "Stock Ownership Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "weburl": {
+    "name": "weburl",
+    "type": "VARCHAR",
+    "description": "Web URL",
+    "unit": "source_native; do not assume millions"
+  },
+  "acctchgq": {
+    "name": "acctchgq",
+    "type": "VARCHAR",
+    "description": "Adoption of Accounting Changes",
+    "unit": "source_native; do not assume millions"
+  },
+  "acctstdq": {
+    "name": "acctstdq",
+    "type": "VARCHAR",
+    "description": "Accounting Standard",
+    "unit": "source_native; do not assume millions"
+  },
+  "adrrq": {
+    "name": "adrrq",
+    "type": "DOUBLE",
+    "description": "ADR Ratio",
+    "unit": "source_native; do not assume millions"
+  },
+  "ajexq": {
+    "name": "ajexq",
+    "type": "DOUBLE",
+    "description": "Adjustment Factor (Company) - Cumulative by",
+    "unit": "source_native; do not assume millions"
+  },
+  "ajpq": {
+    "name": "ajpq",
+    "type": "DOUBLE",
+    "description": "Adjustment Factor (Company) - Cumulative byPay-",
+    "unit": "source_native; do not assume millions"
+  },
+  "apdedateq": {
+    "name": "apdedateq",
+    "type": "DATE",
+    "description": "Actual Period End date",
+    "unit": "source_native; do not assume millions"
+  },
+  "bsprq": {
+    "name": "bsprq",
+    "type": "VARCHAR",
+    "description": "Balance Sheet Presentation",
+    "unit": "source_native; do not assume millions"
+  },
+  "compstq": {
+    "name": "compstq",
+    "type": "VARCHAR",
+    "description": "Comparability Status",
+    "unit": "source_native; do not assume millions"
+  },
+  "curncdq": {
+    "name": "curncdq",
+    "type": "VARCHAR",
+    "description": "Native Currency Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "currtrq": {
+    "name": "currtrq",
+    "type": "DOUBLE",
+    "description": "Currency Translation Rate",
+    "unit": "source_native; do not assume millions"
+  },
+  "curuscnq": {
+    "name": "curuscnq",
+    "type": "DOUBLE",
+    "description": "US Canadian Translation Rate - Interim",
+    "unit": "source_native; do not assume millions"
+  },
+  "datacqtr": {
+    "name": "datacqtr",
+    "type": "VARCHAR",
+    "description": "Calendar Data Year and Quarter",
+    "unit": "source_native; do not assume millions"
+  },
+  "datafqtr": {
+    "name": "datafqtr",
+    "type": "VARCHAR",
+    "description": "Fiscal Data Year and Quarter",
+    "unit": "source_native; do not assume millions"
+  },
+  "fdateq": {
+    "name": "fdateq",
+    "type": "DATE",
+    "description": "Final Date",
+    "unit": "source_native; do not assume millions"
+  },
+  "finalq": {
+    "name": "finalq",
+    "type": "VARCHAR",
+    "description": "Final Indicator Flag",
+    "unit": "source_native; do not assume millions"
+  },
+  "fqtr": {
+    "name": "fqtr",
+    "type": "DOUBLE",
+    "description": "Fiscal Quarter",
+    "unit": "source_native; do not assume millions"
+  },
+  "fyearq": {
+    "name": "fyearq",
+    "type": "DOUBLE",
+    "description": "Fiscal Year",
+    "unit": "source_native; do not assume millions"
+  },
+  "ogmq": {
+    "name": "ogmq",
+    "type": "VARCHAR",
+    "description": "OIL & GAS METHOD",
+    "unit": "source_native; do not assume millions"
+  },
+  "pdateq": {
+    "name": "pdateq",
+    "type": "DATE",
+    "description": "Preliminary Date",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdq": {
+    "name": "rdq",
+    "type": "DATE",
+    "description": "Report Date of Quarterly Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "rp": {
+    "name": "rp",
+    "type": "VARCHAR",
+    "description": "Reporting Periodicity",
+    "unit": "source_native; do not assume millions"
+  },
+  "scfq": {
+    "name": "scfq",
+    "type": "DOUBLE",
+    "description": "Cash Flow Model",
+    "unit": "source_native; do not assume millions"
+  },
+  "srcq": {
+    "name": "srcq",
+    "type": "DOUBLE",
+    "description": "Source Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "staltq": {
+    "name": "staltq",
+    "type": "VARCHAR",
+    "description": "Status Alert",
+    "unit": "source_native; do not assume millions"
+  },
+  "updq": {
+    "name": "updq",
+    "type": "DOUBLE",
+    "description": "Update Code",
+    "unit": "source_native; do not assume millions"
+  },
+  "acchgq": {
+    "name": "acchgq",
+    "type": "DOUBLE",
+    "description": "Accounting Changes - Cumulative Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "acomincq": {
+    "name": "acomincq",
+    "type": "DOUBLE",
+    "description": "Accumulated Other Comprehensive Income",
+    "unit": "source_native; do not assume millions"
+  },
+  "acoq": {
+    "name": "acoq",
+    "type": "DOUBLE",
+    "description": "Current Assets - Other - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "actq": {
+    "name": "actq",
+    "type": "DOUBLE",
+    "description": "Current Assets - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "altoq": {
+    "name": "altoq",
+    "type": "DOUBLE",
+    "description": "Other Long-term Assets",
+    "unit": "source_native; do not assume millions"
+  },
+  "ancq": {
+    "name": "ancq",
+    "type": "DOUBLE",
+    "description": "Non-Current Assets - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "anoq": {
+    "name": "anoq",
+    "type": "DOUBLE",
+    "description": "Assets Netting & Other Adjustments",
+    "unit": "source_native; do not assume millions"
+  },
+  "aociderglq": {
+    "name": "aociderglq",
+    "type": "DOUBLE",
+    "description": "Accum Other Comp Inc - Derivatives",
+    "unit": "source_native; do not assume millions"
+  },
+  "aociotherq": {
+    "name": "aociotherq",
+    "type": "DOUBLE",
+    "description": "Accum Other Comp Inc - Other Adjustments",
+    "unit": "source_native; do not assume millions"
+  },
+  "aocipenq": {
+    "name": "aocipenq",
+    "type": "DOUBLE",
+    "description": "Accum Other Comp Inc - Min Pension Liab",
+    "unit": "source_native; do not assume millions"
+  },
+  "aocisecglq": {
+    "name": "aocisecglq",
+    "type": "DOUBLE",
+    "description": "Accum Other Comp Inc - Unreal G/L Ret Int",
+    "unit": "source_native; do not assume millions"
+  },
+  "aol2q": {
+    "name": "aol2q",
+    "type": "DOUBLE",
+    "description": "Assets Level2 (Observable)",
+    "unit": "source_native; do not assume millions"
+  },
+  "aoq": {
+    "name": "aoq",
+    "type": "DOUBLE",
+    "description": "Assets - Other - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "apq": {
+    "name": "apq",
+    "type": "DOUBLE",
+    "description": "Account Payable/Creditors - Trade",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqaq": {
+    "name": "aqaq",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger After-Tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqdq": {
+    "name": "aqdq",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqepsq": {
+    "name": "aqepsq",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqpl1q": {
+    "name": "aqpl1q",
+    "type": "DOUBLE",
+    "description": "Assets Level1 (Quoted Prices)",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqpq": {
+    "name": "aqpq",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "arcedq": {
+    "name": "arcedq",
+    "type": "DOUBLE",
+    "description": "As Reported Core - Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "arceepsq": {
+    "name": "arceepsq",
+    "type": "DOUBLE",
+    "description": "As Reported Core - Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "arceq": {
+    "name": "arceq",
+    "type": "DOUBLE",
+    "description": "As Reported Core - After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "atq": {
+    "name": "atq",
+    "type": "DOUBLE",
+    "description": "Assets - Total",
+    "unit": "millions_of_reporting_currency"
+  },
+  "aul3q": {
+    "name": "aul3q",
+    "type": "DOUBLE",
+    "description": "Assets Level3 (Unobservable)",
+    "unit": "source_native; do not assume millions"
+  },
+  "billexceq": {
+    "name": "billexceq",
+    "type": "DOUBLE",
+    "description": "Billings in Excess of Cost & Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "capr1q": {
+    "name": "capr1q",
+    "type": "DOUBLE",
+    "description": "Risk-Adjusted Capital Ratio - Tier 1",
+    "unit": "source_native; do not assume millions"
+  },
+  "capr2q": {
+    "name": "capr2q",
+    "type": "DOUBLE",
+    "description": "Risk-Adjusted Capital Ratio - Tier 2",
+    "unit": "source_native; do not assume millions"
+  },
+  "capr3q": {
+    "name": "capr3q",
+    "type": "DOUBLE",
+    "description": "Risk-Adjusted Capital Ratio - Combined",
+    "unit": "source_native; do not assume millions"
+  },
+  "capsftq": {
+    "name": "capsftq",
+    "type": "DOUBLE",
+    "description": "Capitalized Software",
+    "unit": "source_native; do not assume millions"
+  },
+  "capsq": {
+    "name": "capsq",
+    "type": "DOUBLE",
+    "description": "Capital Surplus/Share Premium Reserve",
+    "unit": "source_native; do not assume millions"
+  },
+  "ceiexbillq": {
+    "name": "ceiexbillq",
+    "type": "DOUBLE",
+    "description": "Cost & Earnings in Excess of Billings",
+    "unit": "source_native; do not assume millions"
+  },
+  "ceqq": {
+    "name": "ceqq",
+    "type": "DOUBLE",
+    "description": "Common/Ordinary Equity - Total",
+    "unit": "millions_of_reporting_currency"
+  },
+  "cheq": {
+    "name": "cheq",
+    "type": "DOUBLE",
+    "description": "Cash and Short-Term Investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "chq": {
+    "name": "chq",
+    "type": "DOUBLE",
+    "description": "Cash",
+    "unit": "source_native; do not assume millions"
+  },
+  "cibegniq": {
+    "name": "cibegniq",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Beginning Net Income",
+    "unit": "source_native; do not assume millions"
+  },
+  "cicurrq": {
+    "name": "cicurrq",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Currency Trans Adj",
+    "unit": "source_native; do not assume millions"
+  },
+  "ciderglq": {
+    "name": "ciderglq",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Derivative Gains/Losses",
+    "unit": "source_native; do not assume millions"
+  },
+  "cimiiq": {
+    "name": "cimiiq",
+    "type": "DOUBLE",
+    "description": "Comprehensive Income - Noncontrolling Interest",
+    "unit": "source_native; do not assume millions"
+  },
+  "ciotherq": {
+    "name": "ciotherq",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Other Adj",
+    "unit": "source_native; do not assume millions"
+  },
+  "cipenq": {
+    "name": "cipenq",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Minimum Pension Adj",
+    "unit": "source_native; do not assume millions"
+  },
+  "ciq": {
+    "name": "ciq",
+    "type": "DOUBLE",
+    "description": "Comprehensive Income - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "cisecglq": {
+    "name": "cisecglq",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Securities Gains/Losses",
+    "unit": "source_native; do not assume millions"
+  },
+  "citotalq": {
+    "name": "citotalq",
+    "type": "DOUBLE",
+    "description": "Comprehensive Income - Parent",
+    "unit": "source_native; do not assume millions"
+  },
+  "cogsq": {
+    "name": "cogsq",
+    "type": "DOUBLE",
+    "description": "Cost of Goods Sold",
+    "unit": "millions_of_reporting_currency"
+  },
+  "csh12q": {
+    "name": "csh12q",
+    "type": "DOUBLE",
+    "description": "Common Shares Used to Calculate Earnings",
+    "unit": "millions_of_shares"
+  },
+  "cshfd12": {
+    "name": "cshfd12",
+    "type": "DOUBLE",
+    "description": "Common Shares Used to Calc Earnings Per",
+    "unit": "millions_of_shares"
+  },
+  "cshfdq": {
+    "name": "cshfdq",
+    "type": "DOUBLE",
+    "description": "Com Shares for Diluted EPS",
+    "unit": "millions_of_shares"
+  },
+  "cshiq": {
+    "name": "cshiq",
+    "type": "DOUBLE",
+    "description": "Common Shares Issued",
+    "unit": "millions_of_shares"
+  },
+  "cshopq": {
+    "name": "cshopq",
+    "type": "DOUBLE",
+    "description": "Total Shares Repurchased - Quarter",
+    "unit": "millions_of_shares"
+  },
+  "cshoq": {
+    "name": "cshoq",
+    "type": "DOUBLE",
+    "description": "Common Shares Outstanding",
+    "unit": "millions_of_shares"
+  },
+  "cshprq": {
+    "name": "cshprq",
+    "type": "DOUBLE",
+    "description": "Common Shares Used to Calculate Earnings Per",
+    "unit": "millions_of_shares"
+  },
+  "cstkcvq": {
+    "name": "cstkcvq",
+    "type": "DOUBLE",
+    "description": "Carrying Value",
+    "unit": "source_native; do not assume millions"
+  },
+  "cstkeq": {
+    "name": "cstkeq",
+    "type": "DOUBLE",
+    "description": "Common Stock Equivalents - Dollar Savings",
+    "unit": "source_native; do not assume millions"
+  },
+  "cstkq": {
+    "name": "cstkq",
+    "type": "DOUBLE",
+    "description": "Common/Ordinary Stock (Capital)",
+    "unit": "source_native; do not assume millions"
+  },
+  "dcomq": {
+    "name": "dcomq",
+    "type": "DOUBLE",
+    "description": "Deferred Compensation",
+    "unit": "source_native; do not assume millions"
+  },
+  "dd1q": {
+    "name": "dd1q",
+    "type": "DOUBLE",
+    "description": "Long-Term Debt Due in One Year",
+    "unit": "source_native; do not assume millions"
+  },
+  "deracq": {
+    "name": "deracq",
+    "type": "DOUBLE",
+    "description": "Derivative Assets - Current",
+    "unit": "source_native; do not assume millions"
+  },
+  "deraltq": {
+    "name": "deraltq",
+    "type": "DOUBLE",
+    "description": "Derivative Assets Long-Term",
+    "unit": "source_native; do not assume millions"
+  },
+  "derhedglq": {
+    "name": "derhedglq",
+    "type": "DOUBLE",
+    "description": "Gains/Losses on Derivatives and Hedging",
+    "unit": "source_native; do not assume millions"
+  },
+  "derlcq": {
+    "name": "derlcq",
+    "type": "DOUBLE",
+    "description": "Derivative Liabilities- Current",
+    "unit": "source_native; do not assume millions"
+  },
+  "derlltq": {
+    "name": "derlltq",
+    "type": "DOUBLE",
+    "description": "Derivative Liabilities Long-Term",
+    "unit": "source_native; do not assume millions"
+  },
+  "diladq": {
+    "name": "diladq",
+    "type": "DOUBLE",
+    "description": "Dilution Adjustment",
+    "unit": "source_native; do not assume millions"
+  },
+  "dilavq": {
+    "name": "dilavq",
+    "type": "DOUBLE",
+    "description": "Dilution Available - Excluding Extraordinary Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "dlcq": {
+    "name": "dlcq",
+    "type": "DOUBLE",
+    "description": "Debt in Current Liabilities",
+    "unit": "source_native; do not assume millions"
+  },
+  "dlttq": {
+    "name": "dlttq",
+    "type": "DOUBLE",
+    "description": "Long-Term Debt - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "doq": {
+    "name": "doq",
+    "type": "DOUBLE",
+    "description": "Discontinued Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "dpacreq": {
+    "name": "dpacreq",
+    "type": "DOUBLE",
+    "description": "Accumulated Depreciation of RE Property",
+    "unit": "source_native; do not assume millions"
+  },
+  "dpactq": {
+    "name": "dpactq",
+    "type": "DOUBLE",
+    "description": "Depreciation, Depletion and Amortization",
+    "unit": "source_native; do not assume millions"
+  },
+  "dpq": {
+    "name": "dpq",
+    "type": "DOUBLE",
+    "description": "Depreciation and Amortization - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "dpretq": {
+    "name": "dpretq",
+    "type": "DOUBLE",
+    "description": "Depr/Amort of Property",
+    "unit": "source_native; do not assume millions"
+  },
+  "drcq": {
+    "name": "drcq",
+    "type": "DOUBLE",
+    "description": "Deferred Revenue - Current",
+    "unit": "source_native; do not assume millions"
+  },
+  "drltq": {
+    "name": "drltq",
+    "type": "DOUBLE",
+    "description": "Deferred Revenue - Long-term",
+    "unit": "source_native; do not assume millions"
+  },
+  "dteaq": {
+    "name": "dteaq",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "dtedq": {
+    "name": "dtedq",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "dteepsq": {
+    "name": "dteepsq",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "dtepq": {
+    "name": "dtepq",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "dvintfq": {
+    "name": "dvintfq",
+    "type": "DOUBLE",
+    "description": "Dividends & Interest Receivable (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "dvpq": {
+    "name": "dvpq",
+    "type": "DOUBLE",
+    "description": "Dividends - Preferred/Preference",
+    "unit": "source_native; do not assume millions"
+  },
+  "epsf12": {
+    "name": "epsf12",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Diluted) - Excluding",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epsfi12": {
+    "name": "epsfi12",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Diluted) - Including",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epsfiq": {
+    "name": "epsfiq",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Diluted) - Including",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epsfxq": {
+    "name": "epsfxq",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Diluted) - Excluding",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epspi12": {
+    "name": "epspi12",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Basic) - Including",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epspiq": {
+    "name": "epspiq",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Basic) - Including",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epspxq": {
+    "name": "epspxq",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Basic) - Excluding",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epsx12": {
+    "name": "epsx12",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Basic) - Excluding",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "esopctq": {
+    "name": "esopctq",
+    "type": "DOUBLE",
+    "description": "Common ESOP Obligation - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "esopnrq": {
+    "name": "esopnrq",
+    "type": "DOUBLE",
+    "description": "Preferred ESOP Obligation - Non-Redeemable",
+    "unit": "source_native; do not assume millions"
+  },
+  "esoprq": {
+    "name": "esoprq",
+    "type": "DOUBLE",
+    "description": "Preferred ESOP Obligation - Redeemable",
+    "unit": "source_native; do not assume millions"
+  },
+  "esoptq": {
+    "name": "esoptq",
+    "type": "DOUBLE",
+    "description": "Preferred ESOP Obligation - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "esubq": {
+    "name": "esubq",
+    "type": "DOUBLE",
+    "description": "Equity in Earnings (I/S) - Unconsolidated",
+    "unit": "source_native; do not assume millions"
+  },
+  "fcaq": {
+    "name": "fcaq",
+    "type": "DOUBLE",
+    "description": "Foreign Exchange Income (Loss)",
+    "unit": "source_native; do not assume millions"
+  },
+  "ffoq": {
+    "name": "ffoq",
+    "type": "DOUBLE",
+    "description": "Funds From Operations (REIT)",
+    "unit": "source_native; do not assume millions"
+  },
+  "finacoq": {
+    "name": "finacoq",
+    "type": "DOUBLE",
+    "description": "Finance Division Other Current Assets, Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "finaoq": {
+    "name": "finaoq",
+    "type": "DOUBLE",
+    "description": "Finance Division Other Long-Term Assets, Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "finchq": {
+    "name": "finchq",
+    "type": "DOUBLE",
+    "description": "Finance Division - Cash",
+    "unit": "source_native; do not assume millions"
+  },
+  "findlcq": {
+    "name": "findlcq",
+    "type": "DOUBLE",
+    "description": "Finance Division Long-Term Debt Current",
+    "unit": "source_native; do not assume millions"
+  },
+  "findltq": {
+    "name": "findltq",
+    "type": "DOUBLE",
+    "description": "Finance Division Debt Long-Term",
+    "unit": "source_native; do not assume millions"
+  },
+  "finivstq": {
+    "name": "finivstq",
+    "type": "DOUBLE",
+    "description": "Finance Division Short-Term Investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "finlcoq": {
+    "name": "finlcoq",
+    "type": "DOUBLE",
+    "description": "Finance Division Other Current Liabilities, Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "finltoq": {
+    "name": "finltoq",
+    "type": "DOUBLE",
+    "description": "Finance Division Other Long Term Liabilities,",
+    "unit": "source_native; do not assume millions"
+  },
+  "finnpq": {
+    "name": "finnpq",
+    "type": "DOUBLE",
+    "description": "Finance Division Notes Payable",
+    "unit": "source_native; do not assume millions"
+  },
+  "finreccq": {
+    "name": "finreccq",
+    "type": "DOUBLE",
+    "description": "Finance Division Current Receivables",
+    "unit": "source_native; do not assume millions"
+  },
+  "finrecltq": {
+    "name": "finrecltq",
+    "type": "DOUBLE",
+    "description": "Finance Division Long-Term Receivables",
+    "unit": "source_native; do not assume millions"
+  },
+  "finrevq": {
+    "name": "finrevq",
+    "type": "DOUBLE",
+    "description": "Finance Division Revenue",
+    "unit": "source_native; do not assume millions"
+  },
+  "finxintq": {
+    "name": "finxintq",
+    "type": "DOUBLE",
+    "description": "Finance Division Interest Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "finxoprq": {
+    "name": "finxoprq",
+    "type": "DOUBLE",
+    "description": "Finance Division Operating Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlamq": {
+    "name": "gdwlamq",
+    "type": "DOUBLE",
+    "description": "Amortization of Goodwill",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlia12": {
+    "name": "gdwlia12",
+    "type": "DOUBLE",
+    "description": "Impairments of Goodwill AfterTax - 12mm",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwliaq": {
+    "name": "gdwliaq",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlid12": {
+    "name": "gdwlid12",
+    "type": "DOUBLE",
+    "description": "Impairments Diluted EPS - 12mm",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlidq": {
+    "name": "gdwlidq",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlieps12": {
+    "name": "gdwlieps12",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwliepsq": {
+    "name": "gdwliepsq",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlipq": {
+    "name": "gdwlipq",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlq": {
+    "name": "gdwlq",
+    "type": "DOUBLE",
+    "description": "Goodwill (net)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glaq": {
+    "name": "glaq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss After-Tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "glcea12": {
+    "name": "glcea12",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glceaq": {
+    "name": "glceaq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glced12": {
+    "name": "glced12",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glcedq": {
+    "name": "glcedq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glceeps12": {
+    "name": "glceeps12",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glceepsq": {
+    "name": "glceepsq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glcepq": {
+    "name": "glcepq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "gldq": {
+    "name": "gldq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "glepsq": {
+    "name": "glepsq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "glivq": {
+    "name": "glivq",
+    "type": "DOUBLE",
+    "description": "Gains/Losses on investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "glpq": {
+    "name": "glpq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "hedgeglq": {
+    "name": "hedgeglq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Ineffective Hedges",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibadj12": {
+    "name": "ibadj12",
+    "type": "DOUBLE",
+    "description": "Income Before Extra Items - Adj for Common",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibadjq": {
+    "name": "ibadjq",
+    "type": "DOUBLE",
+    "description": "Income Before Extraordinary Items - Adjusted for",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibcomq": {
+    "name": "ibcomq",
+    "type": "DOUBLE",
+    "description": "Income Before Extraordinary Items - Available",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibmiiq": {
+    "name": "ibmiiq",
+    "type": "DOUBLE",
+    "description": "Income before Extraordinary Items and",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibq": {
+    "name": "ibq",
+    "type": "DOUBLE",
+    "description": "Income Before Extraordinary Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "icaptq": {
+    "name": "icaptq",
+    "type": "DOUBLE",
+    "description": "Invested Capital - Total - Quarterly",
+    "unit": "source_native; do not assume millions"
+  },
+  "intaccq": {
+    "name": "intaccq",
+    "type": "DOUBLE",
+    "description": "Interest Accrued",
+    "unit": "source_native; do not assume millions"
+  },
+  "intanoq": {
+    "name": "intanoq",
+    "type": "DOUBLE",
+    "description": "Other Intangibles",
+    "unit": "source_native; do not assume millions"
+  },
+  "intanq": {
+    "name": "intanq",
+    "type": "DOUBLE",
+    "description": "Intangible Assets - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "invfgq": {
+    "name": "invfgq",
+    "type": "DOUBLE",
+    "description": "Inventory - Finished Goods",
+    "unit": "source_native; do not assume millions"
+  },
+  "invoq": {
+    "name": "invoq",
+    "type": "DOUBLE",
+    "description": "Inventory - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "invrmq": {
+    "name": "invrmq",
+    "type": "DOUBLE",
+    "description": "Inventory - Raw Materials",
+    "unit": "source_native; do not assume millions"
+  },
+  "invtq": {
+    "name": "invtq",
+    "type": "DOUBLE",
+    "description": "Inventories - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "invwipq": {
+    "name": "invwipq",
+    "type": "DOUBLE",
+    "description": "Inventory - Work in Process",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivaeqq": {
+    "name": "ivaeqq",
+    "type": "DOUBLE",
+    "description": "Investment and Advances - Equity",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivaoq": {
+    "name": "ivaoq",
+    "type": "DOUBLE",
+    "description": "Investment and Advances - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivltq": {
+    "name": "ivltq",
+    "type": "DOUBLE",
+    "description": "Total Long-term Investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivstq": {
+    "name": "ivstq",
+    "type": "DOUBLE",
+    "description": "Short-Term Investments- Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "lcoq": {
+    "name": "lcoq",
+    "type": "DOUBLE",
+    "description": "Current Liabilities - Other - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "lctq": {
+    "name": "lctq",
+    "type": "DOUBLE",
+    "description": "Current Liabilities - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "lltq": {
+    "name": "lltq",
+    "type": "DOUBLE",
+    "description": "Long-Term Liabilities (Total)",
+    "unit": "source_native; do not assume millions"
+  },
+  "lnoq": {
+    "name": "lnoq",
+    "type": "DOUBLE",
+    "description": "Liabilities Netting & Other Adjustments",
+    "unit": "source_native; do not assume millions"
+  },
+  "lol2q": {
+    "name": "lol2q",
+    "type": "DOUBLE",
+    "description": "Liabilities Level2 (Observable)",
+    "unit": "source_native; do not assume millions"
+  },
+  "loq": {
+    "name": "loq",
+    "type": "DOUBLE",
+    "description": "Liabilities - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "loxdrq": {
+    "name": "loxdrq",
+    "type": "DOUBLE",
+    "description": "Liabilities - Other - Excluding Deferred Revenue",
+    "unit": "source_native; do not assume millions"
+  },
+  "lqpl1q": {
+    "name": "lqpl1q",
+    "type": "DOUBLE",
+    "description": "Liabilities Level1 (Quoted Prices)",
+    "unit": "source_native; do not assume millions"
+  },
+  "lseq": {
+    "name": "lseq",
+    "type": "DOUBLE",
+    "description": "Liabilities and Stockholders Equity - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "ltmibq": {
+    "name": "ltmibq",
+    "type": "DOUBLE",
+    "description": "Liabilities - Total and Noncontrolling Interest",
+    "unit": "source_native; do not assume millions"
+  },
+  "ltq": {
+    "name": "ltq",
+    "type": "DOUBLE",
+    "description": "Liabilities - Total",
+    "unit": "millions_of_reporting_currency"
+  },
+  "lul3q": {
+    "name": "lul3q",
+    "type": "DOUBLE",
+    "description": "Liabilities Level3 (Unobservable)",
+    "unit": "source_native; do not assume millions"
+  },
+  "mibnq": {
+    "name": "mibnq",
+    "type": "DOUBLE",
+    "description": "Noncontrolling Interests - Nonredeemable -",
+    "unit": "source_native; do not assume millions"
+  },
+  "mibq": {
+    "name": "mibq",
+    "type": "DOUBLE",
+    "description": "Noncontrolling Interest - Redeemable - Balance",
+    "unit": "source_native; do not assume millions"
+  },
+  "mibtq": {
+    "name": "mibtq",
+    "type": "DOUBLE",
+    "description": "Noncontrolling Interests - Total - Balance Sheet",
+    "unit": "source_native; do not assume millions"
+  },
+  "miiq": {
+    "name": "miiq",
+    "type": "DOUBLE",
+    "description": "Noncontrolling Interest - Income Account",
+    "unit": "source_native; do not assume millions"
+  },
+  "msaq": {
+    "name": "msaq",
+    "type": "DOUBLE",
+    "description": "Accum Other Comp Inc - Marketable Security",
+    "unit": "source_native; do not assume millions"
+  },
+  "ncoq": {
+    "name": "ncoq",
+    "type": "DOUBLE",
+    "description": "Net Charge-Offs",
+    "unit": "source_native; do not assume millions"
+  },
+  "niitq": {
+    "name": "niitq",
+    "type": "DOUBLE",
+    "description": "Net Interest Income (Tax Equivalent)",
+    "unit": "source_native; do not assume millions"
+  },
+  "nimq": {
+    "name": "nimq",
+    "type": "DOUBLE",
+    "description": "Net Interest Margin",
+    "unit": "source_native; do not assume millions"
+  },
+  "niq": {
+    "name": "niq",
+    "type": "DOUBLE",
+    "description": "Net Income (Loss)",
+    "unit": "millions_of_reporting_currency"
+  },
+  "nopiq": {
+    "name": "nopiq",
+    "type": "DOUBLE",
+    "description": "Non-Operating Income (Expense) - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "npatq": {
+    "name": "npatq",
+    "type": "DOUBLE",
+    "description": "Nonperforming Assets - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "npq": {
+    "name": "npq",
+    "type": "DOUBLE",
+    "description": "Notes Payable",
+    "unit": "source_native; do not assume millions"
+  },
+  "nrtxtdq": {
+    "name": "nrtxtdq",
+    "type": "DOUBLE",
+    "description": "Nonrecurring Income Taxes Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "nrtxtepsq": {
+    "name": "nrtxtepsq",
+    "type": "DOUBLE",
+    "description": "Nonrecurring Income Taxes Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "nrtxtq": {
+    "name": "nrtxtq",
+    "type": "DOUBLE",
+    "description": "Nonrecurring Income Taxes - After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "obkq": {
+    "name": "obkq",
+    "type": "DOUBLE",
+    "description": "Order backlog",
+    "unit": "source_native; do not assume millions"
+  },
+  "oepf12": {
+    "name": "oepf12",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share - Diluted - from Operations -",
+    "unit": "source_native; do not assume millions"
+  },
+  "oeps12": {
+    "name": "oeps12",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share from Operations - 12",
+    "unit": "source_native; do not assume millions"
+  },
+  "oepsxq": {
+    "name": "oepsxq",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share - Diluted - from Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "oiadpq": {
+    "name": "oiadpq",
+    "type": "DOUBLE",
+    "description": "Operating Income After Depreciation - Quarterly",
+    "unit": "millions_of_reporting_currency"
+  },
+  "oibdpq": {
+    "name": "oibdpq",
+    "type": "DOUBLE",
+    "description": "Operating Income Before Depreciation -",
+    "unit": "source_native; do not assume millions"
+  },
+  "opepsq": {
+    "name": "opepsq",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share from Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "optdrq": {
+    "name": "optdrq",
+    "type": "DOUBLE",
+    "description": "Dividend Rate - Assumption (%)",
+    "unit": "source_native; do not assume millions"
+  },
+  "optfvgrq": {
+    "name": "optfvgrq",
+    "type": "DOUBLE",
+    "description": "Options - Fair Value of Options Granted",
+    "unit": "source_native; do not assume millions"
+  },
+  "optlifeq": {
+    "name": "optlifeq",
+    "type": "DOUBLE",
+    "description": "Life of Options - Assumption (# yrs)",
+    "unit": "source_native; do not assume millions"
+  },
+  "optrfrq": {
+    "name": "optrfrq",
+    "type": "DOUBLE",
+    "description": "Risk Free Rate - Assumption (%)",
+    "unit": "source_native; do not assume millions"
+  },
+  "optvolq": {
+    "name": "optvolq",
+    "type": "DOUBLE",
+    "description": "Volatility - Assumption (%)",
+    "unit": "source_native; do not assume millions"
+  },
+  "piq": {
+    "name": "piq",
+    "type": "DOUBLE",
+    "description": "Pretax Income",
+    "unit": "source_native; do not assume millions"
+  },
+  "pllq": {
+    "name": "pllq",
+    "type": "DOUBLE",
+    "description": "Provision for Loan/Asset Losses",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnc12": {
+    "name": "pnc12",
+    "type": "DOUBLE",
+    "description": "Pension Core Adjustment - 12mm",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncd12": {
+    "name": "pncd12",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncdq": {
+    "name": "pncdq",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnceps12": {
+    "name": "pnceps12",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncepsq": {
+    "name": "pncepsq",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciapq": {
+    "name": "pnciapq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciaq": {
+    "name": "pnciaq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncidpq": {
+    "name": "pncidpq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncidq": {
+    "name": "pncidq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciepspq": {
+    "name": "pnciepspq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciepsq": {
+    "name": "pnciepsq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncippq": {
+    "name": "pncippq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncipq": {
+    "name": "pncipq",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpd12": {
+    "name": "pncpd12",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment 12MM Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpdq": {
+    "name": "pncpdq",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpeps12": {
+    "name": "pncpeps12",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment 12MM Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpepsq": {
+    "name": "pncpepsq",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpq": {
+    "name": "pncpq",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncq": {
+    "name": "pncq",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiapq": {
+    "name": "pncwiapq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment After-",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiaq": {
+    "name": "pncwiaq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwidpq": {
+    "name": "pncwidpq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwidq": {
+    "name": "pncwidq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiepq": {
+    "name": "pncwiepq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiepsq": {
+    "name": "pncwiepsq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwippq": {
+    "name": "pncwippq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwipq": {
+    "name": "pncwipq",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnrshoq": {
+    "name": "pnrshoq",
+    "type": "DOUBLE",
+    "description": "Nonred Pfd Shares Outs (000) - Quarterly",
+    "unit": "source_native; do not assume millions"
+  },
+  "ppegtq": {
+    "name": "ppegtq",
+    "type": "DOUBLE",
+    "description": "Property, Plant and Equipment - Total (Gross) -",
+    "unit": "source_native; do not assume millions"
+  },
+  "ppentq": {
+    "name": "ppentq",
+    "type": "DOUBLE",
+    "description": "Property Plant and Equipment - Total (Net)",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcaq": {
+    "name": "prcaq",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcd12": {
+    "name": "prcd12",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcdq": {
+    "name": "prcdq",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prce12": {
+    "name": "prce12",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "prceps12": {
+    "name": "prceps12",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcepsq": {
+    "name": "prcepsq",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpd12": {
+    "name": "prcpd12",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpdq": {
+    "name": "prcpdq",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpeps12": {
+    "name": "prcpeps12",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpepsq": {
+    "name": "prcpepsq",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpq": {
+    "name": "prcpq",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcraq": {
+    "name": "prcraq",
+    "type": "DOUBLE",
+    "description": "Repurchase Price - Average per share Quarter",
+    "unit": "source_native; do not assume millions"
+  },
+  "prshoq": {
+    "name": "prshoq",
+    "type": "DOUBLE",
+    "description": "Redeem Pfd Shares Outs (000)",
+    "unit": "source_native; do not assume millions"
+  },
+  "pstknq": {
+    "name": "pstknq",
+    "type": "DOUBLE",
+    "description": "Preferred/Preference Stock - Nonredeemable",
+    "unit": "source_native; do not assume millions"
+  },
+  "pstkq": {
+    "name": "pstkq",
+    "type": "DOUBLE",
+    "description": "Preferred/Preference Stock (Capital) - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "pstkrq": {
+    "name": "pstkrq",
+    "type": "DOUBLE",
+    "description": "Preferred/Preference Stock - Redeemable",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcaq": {
+    "name": "rcaq",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcdq": {
+    "name": "rcdq",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcepsq": {
+    "name": "rcepsq",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcpq": {
+    "name": "rcpq",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipaq": {
+    "name": "rdipaq",
+    "type": "DOUBLE",
+    "description": "In Process R&D Expense After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipdq": {
+    "name": "rdipdq",
+    "type": "DOUBLE",
+    "description": "In Process R&D Expense Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipepsq": {
+    "name": "rdipepsq",
+    "type": "DOUBLE",
+    "description": "In Process R&D Expense Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipq": {
+    "name": "rdipq",
+    "type": "DOUBLE",
+    "description": "In Process R&D",
+    "unit": "source_native; do not assume millions"
+  },
+  "recdq": {
+    "name": "recdq",
+    "type": "DOUBLE",
+    "description": "Receivables - Estimated Doubtful",
+    "unit": "source_native; do not assume millions"
+  },
+  "rectaq": {
+    "name": "rectaq",
+    "type": "DOUBLE",
+    "description": "Accum Other Comp Inc - Cumulative Translation",
+    "unit": "source_native; do not assume millions"
+  },
+  "rectoq": {
+    "name": "rectoq",
+    "type": "DOUBLE",
+    "description": "Receivables - Current Other incl Tax Refunds",
+    "unit": "source_native; do not assume millions"
+  },
+  "rectq": {
+    "name": "rectq",
+    "type": "DOUBLE",
+    "description": "Receivables - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "rectrq": {
+    "name": "rectrq",
+    "type": "DOUBLE",
+    "description": "Receivables - Trade",
+    "unit": "source_native; do not assume millions"
+  },
+  "recubq": {
+    "name": "recubq",
+    "type": "DOUBLE",
+    "description": "Unbilled Receivables - Quarterly",
+    "unit": "source_native; do not assume millions"
+  },
+  "req": {
+    "name": "req",
+    "type": "DOUBLE",
+    "description": "Retained Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "retq": {
+    "name": "retq",
+    "type": "DOUBLE",
+    "description": "Total RE Property",
+    "unit": "source_native; do not assume millions"
+  },
+  "reunaq": {
+    "name": "reunaq",
+    "type": "DOUBLE",
+    "description": "Unadjusted Retained Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "revtq": {
+    "name": "revtq",
+    "type": "DOUBLE",
+    "description": "Revenue - Total",
+    "unit": "millions_of_reporting_currency"
+  },
+  "rllq": {
+    "name": "rllq",
+    "type": "DOUBLE",
+    "description": "Reserve for Loan/Asset Losses",
+    "unit": "source_native; do not assume millions"
+  },
+  "rra12": {
+    "name": "rra12",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructruring/Acquisition Aftertax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rraq": {
+    "name": "rraq",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructruring/Acquisition Aftertax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rrd12": {
+    "name": "rrd12",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructuring/Acq Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rrdq": {
+    "name": "rrdq",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructuring/Acq Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rreps12": {
+    "name": "rreps12",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructuring/Acq Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rrepsq": {
+    "name": "rrepsq",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructuring/Acq Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rrpq": {
+    "name": "rrpq",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructruring/Acquisition Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rstcheltq": {
+    "name": "rstcheltq",
+    "type": "DOUBLE",
+    "description": "Long-Term Restricted Cash & Investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "rstcheq": {
+    "name": "rstcheq",
+    "type": "DOUBLE",
+    "description": "Restricted Cash & Investments - Current",
+    "unit": "source_native; do not assume millions"
+  },
+  "saleq": {
+    "name": "saleq",
+    "type": "DOUBLE",
+    "description": "Sales/Turnover (Net)",
+    "unit": "millions_of_reporting_currency"
+  },
+  "seqoq": {
+    "name": "seqoq",
+    "type": "DOUBLE",
+    "description": "Other Stockholders- Equity Adjustments",
+    "unit": "source_native; do not assume millions"
+  },
+  "seqq": {
+    "name": "seqq",
+    "type": "DOUBLE",
+    "description": "Stockholders Equity > Parent > Index",
+    "unit": "millions_of_reporting_currency"
+  },
+  "seta12": {
+    "name": "seta12",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) AfterTax -",
+    "unit": "source_native; do not assume millions"
+  },
+  "setaq": {
+    "name": "setaq",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "setd12": {
+    "name": "setd12",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "setdq": {
+    "name": "setdq",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "seteps12": {
+    "name": "seteps12",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "setepsq": {
+    "name": "setepsq",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "setpq": {
+    "name": "setpq",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "spce12": {
+    "name": "spce12",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "spced12": {
+    "name": "spced12",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Diluted 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcedpq": {
+    "name": "spcedpq",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Diluted - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcedq": {
+    "name": "spcedq",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "spceeps12": {
+    "name": "spceeps12",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Basic 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "spceepsp12": {
+    "name": "spceepsp12",
+    "type": "DOUBLE",
+    "description": "S&P Core 12MM EPS - Basic - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spceepspq": {
+    "name": "spceepspq",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Basic - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spceepsq": {
+    "name": "spceepsq",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcep12": {
+    "name": "spcep12",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings 12MM - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcepd12": {
+    "name": "spcepd12",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings 12MM EPS Diluted -",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcepq": {
+    "name": "spcepq",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spceq": {
+    "name": "spceq",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "spidq": {
+    "name": "spidq",
+    "type": "DOUBLE",
+    "description": "Other Special Items Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "spiepsq": {
+    "name": "spiepsq",
+    "type": "DOUBLE",
+    "description": "Other Special Items Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "spioaq": {
+    "name": "spioaq",
+    "type": "DOUBLE",
+    "description": "Other Special Items After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "spiopq": {
+    "name": "spiopq",
+    "type": "DOUBLE",
+    "description": "Other Special Items Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "spiq": {
+    "name": "spiq",
+    "type": "DOUBLE",
+    "description": "Special Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "sretq": {
+    "name": "sretq",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale of Property",
+    "unit": "source_native; do not assume millions"
+  },
+  "stkcoq": {
+    "name": "stkcoq",
+    "type": "DOUBLE",
+    "description": "Stock Compensation Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "stkcpaq": {
+    "name": "stkcpaq",
+    "type": "DOUBLE",
+    "description": "After-tax stock compensation",
+    "unit": "source_native; do not assume millions"
+  },
+  "teqq": {
+    "name": "teqq",
+    "type": "DOUBLE",
+    "description": "Stockholders Equity - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "tfvaq": {
+    "name": "tfvaq",
+    "type": "DOUBLE",
+    "description": "Total Fair Value Assets",
+    "unit": "source_native; do not assume millions"
+  },
+  "tfvceq": {
+    "name": "tfvceq",
+    "type": "DOUBLE",
+    "description": "Total Fair Value Changes including Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "tfvlq": {
+    "name": "tfvlq",
+    "type": "DOUBLE",
+    "description": "Total Fair Value Liabilities",
+    "unit": "source_native; do not assume millions"
+  },
+  "tieq": {
+    "name": "tieq",
+    "type": "DOUBLE",
+    "description": "Interest Expense - Total (Financial Services)",
+    "unit": "source_native; do not assume millions"
+  },
+  "tiiq": {
+    "name": "tiiq",
+    "type": "DOUBLE",
+    "description": "Interest Income - Total (Financial Services)",
+    "unit": "source_native; do not assume millions"
+  },
+  "tstknq": {
+    "name": "tstknq",
+    "type": "DOUBLE",
+    "description": "Treasury Stock - Number of Common Shares",
+    "unit": "source_native; do not assume millions"
+  },
+  "tstkq": {
+    "name": "tstkq",
+    "type": "DOUBLE",
+    "description": "Treasury Stock - Total (All Capital)",
+    "unit": "source_native; do not assume millions"
+  },
+  "txdbaq": {
+    "name": "txdbaq",
+    "type": "DOUBLE",
+    "description": "Deferred Tax Asset - Long Term",
+    "unit": "source_native; do not assume millions"
+  },
+  "txdbcaq": {
+    "name": "txdbcaq",
+    "type": "DOUBLE",
+    "description": "Current Deferred Tax Asset",
+    "unit": "source_native; do not assume millions"
+  },
+  "txdbclq": {
+    "name": "txdbclq",
+    "type": "DOUBLE",
+    "description": "Current Deferred Tax Liability",
+    "unit": "source_native; do not assume millions"
+  },
+  "txdbq": {
+    "name": "txdbq",
+    "type": "DOUBLE",
+    "description": "Deferred Taxes - Balance Sheet",
+    "unit": "source_native; do not assume millions"
+  },
+  "txdiq": {
+    "name": "txdiq",
+    "type": "DOUBLE",
+    "description": "Income Taxes - Deferred",
+    "unit": "source_native; do not assume millions"
+  },
+  "txditcq": {
+    "name": "txditcq",
+    "type": "DOUBLE",
+    "description": "Deferred Taxes and Investment Tax Credit",
+    "unit": "source_native; do not assume millions"
+  },
+  "txpq": {
+    "name": "txpq",
+    "type": "DOUBLE",
+    "description": "Income Taxes Payable",
+    "unit": "source_native; do not assume millions"
+  },
+  "txtq": {
+    "name": "txtq",
+    "type": "DOUBLE",
+    "description": "Income Taxes - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "txwq": {
+    "name": "txwq",
+    "type": "DOUBLE",
+    "description": "Excise Taxes",
+    "unit": "source_native; do not assume millions"
+  },
+  "uacoq": {
+    "name": "uacoq",
+    "type": "DOUBLE",
+    "description": "Current Assets - Other - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "uaoq": {
+    "name": "uaoq",
+    "type": "DOUBLE",
+    "description": "Other Assets - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "uaptq": {
+    "name": "uaptq",
+    "type": "DOUBLE",
+    "description": "Accounts Payable - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "ucapsq": {
+    "name": "ucapsq",
+    "type": "DOUBLE",
+    "description": "Paid In Capital - Other - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "ucconsq": {
+    "name": "ucconsq",
+    "type": "DOUBLE",
+    "description": "Contributions In Aid Of Construction",
+    "unit": "source_native; do not assume millions"
+  },
+  "uceqq": {
+    "name": "uceqq",
+    "type": "DOUBLE",
+    "description": "Common Equity - Total - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "uddq": {
+    "name": "uddq",
+    "type": "DOUBLE",
+    "description": "Debt (Debentures) - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "udmbq": {
+    "name": "udmbq",
+    "type": "DOUBLE",
+    "description": "Debt (Mortgage Bonds)",
+    "unit": "source_native; do not assume millions"
+  },
+  "udoltq": {
+    "name": "udoltq",
+    "type": "DOUBLE",
+    "description": "Debt (Other Long-Term)",
+    "unit": "source_native; do not assume millions"
+  },
+  "udpcoq": {
+    "name": "udpcoq",
+    "type": "DOUBLE",
+    "description": "Debt (Pollution Control Obligations)",
+    "unit": "source_native; do not assume millions"
+  },
+  "udvpq": {
+    "name": "udvpq",
+    "type": "DOUBLE",
+    "description": "Preferred Dividend Requirements",
+    "unit": "source_native; do not assume millions"
+  },
+  "ugiq": {
+    "name": "ugiq",
+    "type": "DOUBLE",
+    "description": "Gross Income (Income Before Interest Charges)",
+    "unit": "source_native; do not assume millions"
+  },
+  "uinvq": {
+    "name": "uinvq",
+    "type": "DOUBLE",
+    "description": "Inventories",
+    "unit": "source_native; do not assume millions"
+  },
+  "ulcoq": {
+    "name": "ulcoq",
+    "type": "DOUBLE",
+    "description": "Current Liabilities - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "uniamiq": {
+    "name": "uniamiq",
+    "type": "DOUBLE",
+    "description": "Net Income before Extraordinary Items After",
+    "unit": "source_native; do not assume millions"
+  },
+  "unopincq": {
+    "name": "unopincq",
+    "type": "DOUBLE",
+    "description": "Nonoperating Income (Net) - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "uopiq": {
+    "name": "uopiq",
+    "type": "DOUBLE",
+    "description": "Operating Income - Total - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "updvpq": {
+    "name": "updvpq",
+    "type": "DOUBLE",
+    "description": "Preference Dividend Requirements - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "upmcstkq": {
+    "name": "upmcstkq",
+    "type": "DOUBLE",
+    "description": "Premium On Common Stock - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "upmpfq": {
+    "name": "upmpfq",
+    "type": "DOUBLE",
+    "description": "Premium On Preferred Stock - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "upmpfsq": {
+    "name": "upmpfsq",
+    "type": "DOUBLE",
+    "description": "Premium On Preference Stock - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "upmsubpq": {
+    "name": "upmsubpq",
+    "type": "DOUBLE",
+    "description": "Premium On Subsidiary Preferred Stock -",
+    "unit": "source_native; do not assume millions"
+  },
+  "upstkcq": {
+    "name": "upstkcq",
+    "type": "DOUBLE",
+    "description": "Preference Stock At Carrying Value - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "upstkq": {
+    "name": "upstkq",
+    "type": "DOUBLE",
+    "description": "Preferred Stock At Carrying Value - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "urectq": {
+    "name": "urectq",
+    "type": "DOUBLE",
+    "description": "Receivables (Net) - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "uspiq": {
+    "name": "uspiq",
+    "type": "DOUBLE",
+    "description": "Special Items - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "usubdvpq": {
+    "name": "usubdvpq",
+    "type": "DOUBLE",
+    "description": "Subsidiary Preferred Dividends - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "usubpcvq": {
+    "name": "usubpcvq",
+    "type": "DOUBLE",
+    "description": "Subsidiary Preferred Stock At Carrying Value",
+    "unit": "source_native; do not assume millions"
+  },
+  "utemq": {
+    "name": "utemq",
+    "type": "DOUBLE",
+    "description": "Maintenance Expense - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "wcapq": {
+    "name": "wcapq",
+    "type": "DOUBLE",
+    "description": "Working Capital (Balance Sheet)",
+    "unit": "source_native; do not assume millions"
+  },
+  "wdaq": {
+    "name": "wdaq",
+    "type": "DOUBLE",
+    "description": "Writedowns After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "wddq": {
+    "name": "wddq",
+    "type": "DOUBLE",
+    "description": "Writedowns Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "wdepsq": {
+    "name": "wdepsq",
+    "type": "DOUBLE",
+    "description": "Writedowns Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "wdpq": {
+    "name": "wdpq",
+    "type": "DOUBLE",
+    "description": "Writedowns Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "xaccq": {
+    "name": "xaccq",
+    "type": "DOUBLE",
+    "description": "Accrued Expenses",
+    "unit": "source_native; do not assume millions"
+  },
+  "xidoq": {
+    "name": "xidoq",
+    "type": "DOUBLE",
+    "description": "Extraordinary Items and Discontinued Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "xintq": {
+    "name": "xintq",
+    "type": "DOUBLE",
+    "description": "Interest and Related Expense- Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "xiq": {
+    "name": "xiq",
+    "type": "DOUBLE",
+    "description": "Extraordinary Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoprq": {
+    "name": "xoprq",
+    "type": "DOUBLE",
+    "description": "Operating Expense- Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "xopt12": {
+    "name": "xopt12",
+    "type": "DOUBLE",
+    "description": "Implied Option Expense - 12mm",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptd12": {
+    "name": "xoptd12",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Diluted 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptd12p": {
+    "name": "xoptd12p",
+    "type": "DOUBLE",
+    "description": "Implied Option 12MM EPS Diluted Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptdq": {
+    "name": "xoptdq",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptdqp": {
+    "name": "xoptdqp",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Diluted Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "xopteps12": {
+    "name": "xopteps12",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Basic 12MM",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptepsp12": {
+    "name": "xoptepsp12",
+    "type": "DOUBLE",
+    "description": "Implied Option 12MM EPS Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptepsq": {
+    "name": "xoptepsq",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptepsqp": {
+    "name": "xoptepsqp",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Basic Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptq": {
+    "name": "xoptq",
+    "type": "DOUBLE",
+    "description": "Implied Option Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptqp": {
+    "name": "xoptqp",
+    "type": "DOUBLE",
+    "description": "Implied Option Expense Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "xrdq": {
+    "name": "xrdq",
+    "type": "DOUBLE",
+    "description": "Research and Development Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "xsgaq": {
+    "name": "xsgaq",
+    "type": "DOUBLE",
+    "description": "Selling, General and Administrative Expenses",
+    "unit": "source_native; do not assume millions"
+  },
+  "acchgy": {
+    "name": "acchgy",
+    "type": "DOUBLE",
+    "description": "Accounting Changes - Cumulative Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "afudccy": {
+    "name": "afudccy",
+    "type": "DOUBLE",
+    "description": "Allowance for Funds Used During Construction",
+    "unit": "source_native; do not assume millions"
+  },
+  "afudciy": {
+    "name": "afudciy",
+    "type": "DOUBLE",
+    "description": "Allowance for Funds Used During Construction",
+    "unit": "source_native; do not assume millions"
+  },
+  "amcy": {
+    "name": "amcy",
+    "type": "DOUBLE",
+    "description": "Amortization (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "aolochy": {
+    "name": "aolochy",
+    "type": "DOUBLE",
+    "description": "Assets and Liabilities - Other (Net Change)",
+    "unit": "source_native; do not assume millions"
+  },
+  "apalchy": {
+    "name": "apalchy",
+    "type": "DOUBLE",
+    "description": "Accounts Payable and Accrued Liabilities -",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqay": {
+    "name": "aqay",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger After-Tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqcy": {
+    "name": "aqcy",
+    "type": "DOUBLE",
+    "description": "Acquisitions",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqdy": {
+    "name": "aqdy",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqepsy": {
+    "name": "aqepsy",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "aqpy": {
+    "name": "aqpy",
+    "type": "DOUBLE",
+    "description": "Acquisition/Merger Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "arcedy": {
+    "name": "arcedy",
+    "type": "DOUBLE",
+    "description": "As Reported Core - Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "arceepsy": {
+    "name": "arceepsy",
+    "type": "DOUBLE",
+    "description": "As Reported Core - Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "arcey": {
+    "name": "arcey",
+    "type": "DOUBLE",
+    "description": "As Reported Core - After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "capxy": {
+    "name": "capxy",
+    "type": "DOUBLE",
+    "description": "Capital Expenditures",
+    "unit": "source_native; do not assume millions"
+  },
+  "cdvcy": {
+    "name": "cdvcy",
+    "type": "DOUBLE",
+    "description": "Cash Dividends on Common Stock (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "chechy": {
+    "name": "chechy",
+    "type": "DOUBLE",
+    "description": "Cash and Cash Equivalents - Increase",
+    "unit": "source_native; do not assume millions"
+  },
+  "cibegniy": {
+    "name": "cibegniy",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Beginning Net Income",
+    "unit": "source_native; do not assume millions"
+  },
+  "cicurry": {
+    "name": "cicurry",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Currency Trans Adj",
+    "unit": "source_native; do not assume millions"
+  },
+  "cidergly": {
+    "name": "cidergly",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Derivative Gains/Losses",
+    "unit": "source_native; do not assume millions"
+  },
+  "cimiiy": {
+    "name": "cimiiy",
+    "type": "DOUBLE",
+    "description": "Comprehensive Income - Noncontrolling Interest",
+    "unit": "source_native; do not assume millions"
+  },
+  "ciothery": {
+    "name": "ciothery",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Other Adj",
+    "unit": "source_native; do not assume millions"
+  },
+  "cipeny": {
+    "name": "cipeny",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Minimum Pension Adj",
+    "unit": "source_native; do not assume millions"
+  },
+  "cisecgly": {
+    "name": "cisecgly",
+    "type": "DOUBLE",
+    "description": "Comp Inc - Securities Gains/Losses",
+    "unit": "source_native; do not assume millions"
+  },
+  "citotaly": {
+    "name": "citotaly",
+    "type": "DOUBLE",
+    "description": "Comprehensive Income - Parent",
+    "unit": "source_native; do not assume millions"
+  },
+  "ciy": {
+    "name": "ciy",
+    "type": "DOUBLE",
+    "description": "Comprehensive Income - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "cogsy": {
+    "name": "cogsy",
+    "type": "DOUBLE",
+    "description": "Cost of Goods Sold",
+    "unit": "source_native; do not assume millions"
+  },
+  "cshfdy": {
+    "name": "cshfdy",
+    "type": "DOUBLE",
+    "description": "Com Shares for Diluted EPS",
+    "unit": "millions_of_shares"
+  },
+  "cshpry": {
+    "name": "cshpry",
+    "type": "DOUBLE",
+    "description": "Common Shares Used to Calculate Earnings Per",
+    "unit": "millions_of_shares"
+  },
+  "cstkey": {
+    "name": "cstkey",
+    "type": "DOUBLE",
+    "description": "Common Stock Equivalents - Dollar Savings",
+    "unit": "source_native; do not assume millions"
+  },
+  "depcy": {
+    "name": "depcy",
+    "type": "DOUBLE",
+    "description": "Depreciation and Depletion (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "derhedgly": {
+    "name": "derhedgly",
+    "type": "DOUBLE",
+    "description": "Gains/Losses on Derivatives and Hedging",
+    "unit": "source_native; do not assume millions"
+  },
+  "dilady": {
+    "name": "dilady",
+    "type": "DOUBLE",
+    "description": "Dilution Adjustment",
+    "unit": "source_native; do not assume millions"
+  },
+  "dilavy": {
+    "name": "dilavy",
+    "type": "DOUBLE",
+    "description": "Dilution Available - Excluding Extraordinary Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "dlcchy": {
+    "name": "dlcchy",
+    "type": "DOUBLE",
+    "description": "Changes in Current Debt",
+    "unit": "source_native; do not assume millions"
+  },
+  "dltisy": {
+    "name": "dltisy",
+    "type": "DOUBLE",
+    "description": "Long-Term Debt - Issuance",
+    "unit": "source_native; do not assume millions"
+  },
+  "dltry": {
+    "name": "dltry",
+    "type": "DOUBLE",
+    "description": "Long-Term Debt - Reduction",
+    "unit": "source_native; do not assume millions"
+  },
+  "doy": {
+    "name": "doy",
+    "type": "DOUBLE",
+    "description": "Discontinued Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "dpcy": {
+    "name": "dpcy",
+    "type": "DOUBLE",
+    "description": "Depreciation and Amortization - Statement of",
+    "unit": "source_native; do not assume millions"
+  },
+  "dprety": {
+    "name": "dprety",
+    "type": "DOUBLE",
+    "description": "Depr/Amort of Property",
+    "unit": "source_native; do not assume millions"
+  },
+  "dpy": {
+    "name": "dpy",
+    "type": "DOUBLE",
+    "description": "Depreciation and Amortization - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "dteay": {
+    "name": "dteay",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "dtedy": {
+    "name": "dtedy",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "dteepsy": {
+    "name": "dteepsy",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "dtepy": {
+    "name": "dtepy",
+    "type": "DOUBLE",
+    "description": "Extinguishment of Debt Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "dvpy": {
+    "name": "dvpy",
+    "type": "DOUBLE",
+    "description": "Dividends - Preferred/Preference",
+    "unit": "source_native; do not assume millions"
+  },
+  "dvy": {
+    "name": "dvy",
+    "type": "DOUBLE",
+    "description": "Cash Dividends",
+    "unit": "source_native; do not assume millions"
+  },
+  "epsfiy": {
+    "name": "epsfiy",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Diluted) - Including",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epsfxy": {
+    "name": "epsfxy",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Diluted) - Excluding",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epspiy": {
+    "name": "epspiy",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Basic) - Including",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "epspxy": {
+    "name": "epspxy",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share (Basic) - Excluding",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "esubcy": {
+    "name": "esubcy",
+    "type": "DOUBLE",
+    "description": "Equity in Net Loss/Earnings (C/F)",
+    "unit": "source_native; do not assume millions"
+  },
+  "esuby": {
+    "name": "esuby",
+    "type": "DOUBLE",
+    "description": "Equity in Earnings (I/S)- Unconsolidated",
+    "unit": "source_native; do not assume millions"
+  },
+  "exrey": {
+    "name": "exrey",
+    "type": "DOUBLE",
+    "description": "Exchange Rate Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "fcay": {
+    "name": "fcay",
+    "type": "DOUBLE",
+    "description": "Foreign Exchange Income (Loss)",
+    "unit": "source_native; do not assume millions"
+  },
+  "ffoy": {
+    "name": "ffoy",
+    "type": "DOUBLE",
+    "description": "Funds From Operations (REIT)",
+    "unit": "source_native; do not assume millions"
+  },
+  "fiaoy": {
+    "name": "fiaoy",
+    "type": "DOUBLE",
+    "description": "Financing Activities - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "fincfy": {
+    "name": "fincfy",
+    "type": "DOUBLE",
+    "description": "Financing Activities - Net Cash Flow",
+    "unit": "source_native; do not assume millions"
+  },
+  "finrevy": {
+    "name": "finrevy",
+    "type": "DOUBLE",
+    "description": "Finance Division Revenue",
+    "unit": "source_native; do not assume millions"
+  },
+  "finxinty": {
+    "name": "finxinty",
+    "type": "DOUBLE",
+    "description": "Finance Division Interest Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "finxopry": {
+    "name": "finxopry",
+    "type": "DOUBLE",
+    "description": "Finance Division Operating Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "fopoxy": {
+    "name": "fopoxy",
+    "type": "DOUBLE",
+    "description": "Funds from Operations - Other excluding Option",
+    "unit": "source_native; do not assume millions"
+  },
+  "fopoy": {
+    "name": "fopoy",
+    "type": "DOUBLE",
+    "description": "Funds from Operations - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "fopty": {
+    "name": "fopty",
+    "type": "DOUBLE",
+    "description": "Funds From Operations - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "fsrcoy": {
+    "name": "fsrcoy",
+    "type": "DOUBLE",
+    "description": "Sources of Funds - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "fsrcty": {
+    "name": "fsrcty",
+    "type": "DOUBLE",
+    "description": "Sources of Funds - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "fuseoy": {
+    "name": "fuseoy",
+    "type": "DOUBLE",
+    "description": "Uses of Funds - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "fusety": {
+    "name": "fusety",
+    "type": "DOUBLE",
+    "description": "Uses of Funds - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlamy": {
+    "name": "gdwlamy",
+    "type": "DOUBLE",
+    "description": "Amortization of Goodwill",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwliay": {
+    "name": "gdwliay",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlidy": {
+    "name": "gdwlidy",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwliepsy": {
+    "name": "gdwliepsy",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "gdwlipy": {
+    "name": "gdwlipy",
+    "type": "DOUBLE",
+    "description": "Impairment of Goodwill Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "glay": {
+    "name": "glay",
+    "type": "DOUBLE",
+    "description": "Gain/Loss After-Tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "glceay": {
+    "name": "glceay",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glcedy": {
+    "name": "glcedy",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glceepsy": {
+    "name": "glceepsy",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "glcepy": {
+    "name": "glcepy",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale (Core Earnings Adjusted)",
+    "unit": "source_native; do not assume millions"
+  },
+  "gldy": {
+    "name": "gldy",
+    "type": "DOUBLE",
+    "description": "Gain/Loss Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "glepsy": {
+    "name": "glepsy",
+    "type": "DOUBLE",
+    "description": "Gain/Loss Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "glivy": {
+    "name": "glivy",
+    "type": "DOUBLE",
+    "description": "Gains/Losses on investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "glpy": {
+    "name": "glpy",
+    "type": "DOUBLE",
+    "description": "Gain/Loss Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "hedgegly": {
+    "name": "hedgegly",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Ineffective Hedges",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibadjy": {
+    "name": "ibadjy",
+    "type": "DOUBLE",
+    "description": "Income Before Extraordinary Items - Adjusted for",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibcomy": {
+    "name": "ibcomy",
+    "type": "DOUBLE",
+    "description": "Income Before Extraordinary Items - Available",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibcy": {
+    "name": "ibcy",
+    "type": "DOUBLE",
+    "description": "Income Before Extraordinary Items - Statement of",
+    "unit": "source_native; do not assume millions"
+  },
+  "ibmiiy": {
+    "name": "ibmiiy",
+    "type": "DOUBLE",
+    "description": "Income before Extraordinary Items and",
+    "unit": "source_native; do not assume millions"
+  },
+  "iby": {
+    "name": "iby",
+    "type": "DOUBLE",
+    "description": "Income Before Extraordinary Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "intpny": {
+    "name": "intpny",
+    "type": "DOUBLE",
+    "description": "Interest Paid - Net",
+    "unit": "source_native; do not assume millions"
+  },
+  "invchy": {
+    "name": "invchy",
+    "type": "DOUBLE",
+    "description": "Inventory - Decrease (Increase)",
+    "unit": "source_native; do not assume millions"
+  },
+  "itccy": {
+    "name": "itccy",
+    "type": "DOUBLE",
+    "description": "Investment Tax Credit - Net (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivacoy": {
+    "name": "ivacoy",
+    "type": "DOUBLE",
+    "description": "Investing Activities - Other",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivchy": {
+    "name": "ivchy",
+    "type": "DOUBLE",
+    "description": "Increase in Investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivncfy": {
+    "name": "ivncfy",
+    "type": "DOUBLE",
+    "description": "Investing Activities - Net Cash Flow",
+    "unit": "source_native; do not assume millions"
+  },
+  "ivstchy": {
+    "name": "ivstchy",
+    "type": "DOUBLE",
+    "description": "Short-Term Investments - Change",
+    "unit": "source_native; do not assume millions"
+  },
+  "miiy": {
+    "name": "miiy",
+    "type": "DOUBLE",
+    "description": "Noncontrolling Interest - Income Account",
+    "unit": "source_native; do not assume millions"
+  },
+  "ncoy": {
+    "name": "ncoy",
+    "type": "DOUBLE",
+    "description": "Net Charge-Offs",
+    "unit": "source_native; do not assume millions"
+  },
+  "niity": {
+    "name": "niity",
+    "type": "DOUBLE",
+    "description": "Net Interest Income (Tax Equivalent)",
+    "unit": "source_native; do not assume millions"
+  },
+  "nimy": {
+    "name": "nimy",
+    "type": "DOUBLE",
+    "description": "Net Interest Margin",
+    "unit": "source_native; do not assume millions"
+  },
+  "niy": {
+    "name": "niy",
+    "type": "DOUBLE",
+    "description": "Net Income (Loss)",
+    "unit": "millions_of_reporting_currency"
+  },
+  "nopiy": {
+    "name": "nopiy",
+    "type": "DOUBLE",
+    "description": "Non-Operating Income (Expense) - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "nrtxtdy": {
+    "name": "nrtxtdy",
+    "type": "DOUBLE",
+    "description": "Nonrecurring Income Taxes Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "nrtxtepsy": {
+    "name": "nrtxtepsy",
+    "type": "DOUBLE",
+    "description": "Nonrecurring Income Taxes Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "nrtxty": {
+    "name": "nrtxty",
+    "type": "DOUBLE",
+    "description": "Nonrecurring Income Taxes - After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "oancfy": {
+    "name": "oancfy",
+    "type": "DOUBLE",
+    "description": "Operating Activities - Net Cash Flow",
+    "unit": "source_native; do not assume millions"
+  },
+  "oepsxy": {
+    "name": "oepsxy",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share - Diluted - from Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "oiadpy": {
+    "name": "oiadpy",
+    "type": "DOUBLE",
+    "description": "Operating Income After Depreciation - Year-to-",
+    "unit": "source_native; do not assume millions"
+  },
+  "oibdpy": {
+    "name": "oibdpy",
+    "type": "DOUBLE",
+    "description": "Operating Income Before Depreciation",
+    "unit": "source_native; do not assume millions"
+  },
+  "opepsy": {
+    "name": "opepsy",
+    "type": "DOUBLE",
+    "description": "Earnings Per Share from Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "optdry": {
+    "name": "optdry",
+    "type": "DOUBLE",
+    "description": "Dividend Rate - Assumption (%)",
+    "unit": "source_native; do not assume millions"
+  },
+  "optfvgry": {
+    "name": "optfvgry",
+    "type": "DOUBLE",
+    "description": "Options - Fair Value of Options Granted",
+    "unit": "source_native; do not assume millions"
+  },
+  "optlifey": {
+    "name": "optlifey",
+    "type": "DOUBLE",
+    "description": "Life of Options - Assumption (# yrs)",
+    "unit": "source_native; do not assume millions"
+  },
+  "optrfry": {
+    "name": "optrfry",
+    "type": "DOUBLE",
+    "description": "Risk Free Rate - Assumption (%)",
+    "unit": "source_native; do not assume millions"
+  },
+  "optvoly": {
+    "name": "optvoly",
+    "type": "DOUBLE",
+    "description": "Volatility - Assumption (%)",
+    "unit": "source_native; do not assume millions"
+  },
+  "pdvcy": {
+    "name": "pdvcy",
+    "type": "DOUBLE",
+    "description": "Cash Dividends on Preferred/Preference Stock",
+    "unit": "source_native; do not assume millions"
+  },
+  "piy": {
+    "name": "piy",
+    "type": "DOUBLE",
+    "description": "Pretax Income",
+    "unit": "source_native; do not assume millions"
+  },
+  "plly": {
+    "name": "plly",
+    "type": "DOUBLE",
+    "description": "Provision for Loan/Asset Losses",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncdy": {
+    "name": "pncdy",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncepsy": {
+    "name": "pncepsy",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciapy": {
+    "name": "pnciapy",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciay": {
+    "name": "pnciay",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncidpy": {
+    "name": "pncidpy",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncidy": {
+    "name": "pncidy",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciepspy": {
+    "name": "pnciepspy",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pnciepsy": {
+    "name": "pnciepsy",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncippy": {
+    "name": "pncippy",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncipy": {
+    "name": "pncipy",
+    "type": "DOUBLE",
+    "description": "Core Pension Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpdy": {
+    "name": "pncpdy",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpepsy": {
+    "name": "pncpepsy",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncpy": {
+    "name": "pncpy",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiapy": {
+    "name": "pncwiapy",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment After-",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiay": {
+    "name": "pncwiay",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwidpy": {
+    "name": "pncwidpy",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwidy": {
+    "name": "pncwidy",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiepsy": {
+    "name": "pncwiepsy",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwiepy": {
+    "name": "pncwiepy",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwippy": {
+    "name": "pncwippy",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncwipy": {
+    "name": "pncwipy",
+    "type": "DOUBLE",
+    "description": "Core Pension w/o Interest Adjustment Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "pncy": {
+    "name": "pncy",
+    "type": "DOUBLE",
+    "description": "Core Pension Adjustment",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcay": {
+    "name": "prcay",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcdy": {
+    "name": "prcdy",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcepsy": {
+    "name": "prcepsy",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpdy": {
+    "name": "prcpdy",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpepsy": {
+    "name": "prcpepsy",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "prcpy": {
+    "name": "prcpy",
+    "type": "DOUBLE",
+    "description": "Core Post Retirement Adjustment Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "prstkccy": {
+    "name": "prstkccy",
+    "type": "DOUBLE",
+    "description": "Purchase of Common Stock (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "prstkcy": {
+    "name": "prstkcy",
+    "type": "DOUBLE",
+    "description": "Purchase of Common and Preferred Stock",
+    "unit": "source_native; do not assume millions"
+  },
+  "prstkpcy": {
+    "name": "prstkpcy",
+    "type": "DOUBLE",
+    "description": "Purchase of Preferred/Preference Stock (Cash",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcay": {
+    "name": "rcay",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcdy": {
+    "name": "rcdy",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcepsy": {
+    "name": "rcepsy",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rcpy": {
+    "name": "rcpy",
+    "type": "DOUBLE",
+    "description": "Restructuring Cost Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipay": {
+    "name": "rdipay",
+    "type": "DOUBLE",
+    "description": "In Process R&D Expense After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipdy": {
+    "name": "rdipdy",
+    "type": "DOUBLE",
+    "description": "In Process R&D Expense Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipepsy": {
+    "name": "rdipepsy",
+    "type": "DOUBLE",
+    "description": "In Process R&D Expense Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rdipy": {
+    "name": "rdipy",
+    "type": "DOUBLE",
+    "description": "In Process R&D",
+    "unit": "source_native; do not assume millions"
+  },
+  "recchy": {
+    "name": "recchy",
+    "type": "DOUBLE",
+    "description": "Accounts Receivable - Decrease (Increase)",
+    "unit": "source_native; do not assume millions"
+  },
+  "revty": {
+    "name": "revty",
+    "type": "DOUBLE",
+    "description": "Revenue - Total",
+    "unit": "millions_of_reporting_currency"
+  },
+  "rray": {
+    "name": "rray",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructruring/Acquisition Aftertax",
+    "unit": "source_native; do not assume millions"
+  },
+  "rrdy": {
+    "name": "rrdy",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructuring/Acq Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rrepsy": {
+    "name": "rrepsy",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructuring/Acq Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "rrpy": {
+    "name": "rrpy",
+    "type": "DOUBLE",
+    "description": "Reversal - Restructruring/Acquisition Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "saley": {
+    "name": "saley",
+    "type": "DOUBLE",
+    "description": "Sales/Turnover (Net)",
+    "unit": "millions_of_reporting_currency"
+  },
+  "scstkcy": {
+    "name": "scstkcy",
+    "type": "DOUBLE",
+    "description": "Sale of Common Stock (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "setay": {
+    "name": "setay",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "setdy": {
+    "name": "setdy",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Diluted EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "setepsy": {
+    "name": "setepsy",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Basic EPS",
+    "unit": "source_native; do not assume millions"
+  },
+  "setpy": {
+    "name": "setpy",
+    "type": "DOUBLE",
+    "description": "Settlement (Litigation/Insurance) Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "sivy": {
+    "name": "sivy",
+    "type": "DOUBLE",
+    "description": "Sale of Investments",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcedpy": {
+    "name": "spcedpy",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Diluted - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcedy": {
+    "name": "spcedy",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "spceepspy": {
+    "name": "spceepspy",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Basic - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spceepsy": {
+    "name": "spceepsy",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings EPS Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcepy": {
+    "name": "spcepy",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings - Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "spcey": {
+    "name": "spcey",
+    "type": "DOUBLE",
+    "description": "S&P Core Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "spidy": {
+    "name": "spidy",
+    "type": "DOUBLE",
+    "description": "Other Special Items Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "spiepsy": {
+    "name": "spiepsy",
+    "type": "DOUBLE",
+    "description": "Other Special Items Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "spioay": {
+    "name": "spioay",
+    "type": "DOUBLE",
+    "description": "Other Special Items After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "spiopy": {
+    "name": "spiopy",
+    "type": "DOUBLE",
+    "description": "Other Special Items Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "spiy": {
+    "name": "spiy",
+    "type": "DOUBLE",
+    "description": "Special Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "sppey": {
+    "name": "sppey",
+    "type": "DOUBLE",
+    "description": "Sale of Property",
+    "unit": "source_native; do not assume millions"
+  },
+  "sppivy": {
+    "name": "sppivy",
+    "type": "DOUBLE",
+    "description": "Sale of PP&E and Investments - (Gain) Loss",
+    "unit": "source_native; do not assume millions"
+  },
+  "spstkcy": {
+    "name": "spstkcy",
+    "type": "DOUBLE",
+    "description": "Sale of Preferred/Preference Stock (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "srety": {
+    "name": "srety",
+    "type": "DOUBLE",
+    "description": "Gain/Loss on Sale of Property",
+    "unit": "source_native; do not assume millions"
+  },
+  "sstky": {
+    "name": "sstky",
+    "type": "DOUBLE",
+    "description": "Sale of Common and Preferred Stock",
+    "unit": "source_native; do not assume millions"
+  },
+  "stkcoy": {
+    "name": "stkcoy",
+    "type": "DOUBLE",
+    "description": "Stock Compensation Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "stkcpay": {
+    "name": "stkcpay",
+    "type": "DOUBLE",
+    "description": "After-tax stock compensation",
+    "unit": "source_native; do not assume millions"
+  },
+  "tdcy": {
+    "name": "tdcy",
+    "type": "DOUBLE",
+    "description": "Deferred Income Taxes - Net (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "tfvcey": {
+    "name": "tfvcey",
+    "type": "DOUBLE",
+    "description": "Total Fair Value Changes including Earnings",
+    "unit": "source_native; do not assume millions"
+  },
+  "tiey": {
+    "name": "tiey",
+    "type": "DOUBLE",
+    "description": "Interest Expense - Total (Financial Services)",
+    "unit": "source_native; do not assume millions"
+  },
+  "tiiy": {
+    "name": "tiiy",
+    "type": "DOUBLE",
+    "description": "Interest Income - Total (Financial Services)",
+    "unit": "source_native; do not assume millions"
+  },
+  "tsafcy": {
+    "name": "tsafcy",
+    "type": "DOUBLE",
+    "description": "Total Srcs of Funds (FOF)",
+    "unit": "source_native; do not assume millions"
+  },
+  "txachy": {
+    "name": "txachy",
+    "type": "DOUBLE",
+    "description": "Income Taxes - Accrued - Increase (Decrease)",
+    "unit": "source_native; do not assume millions"
+  },
+  "txbcofy": {
+    "name": "txbcofy",
+    "type": "DOUBLE",
+    "description": "Excess Tax Benefit of Stock Options - Cash",
+    "unit": "source_native; do not assume millions"
+  },
+  "txbcoy": {
+    "name": "txbcoy",
+    "type": "DOUBLE",
+    "description": "Excess Tax Benefit of Stock Options - Cash",
+    "unit": "source_native; do not assume millions"
+  },
+  "txdcy": {
+    "name": "txdcy",
+    "type": "DOUBLE",
+    "description": "Deferred Taxes (Statement of Cash Flows)",
+    "unit": "source_native; do not assume millions"
+  },
+  "txdiy": {
+    "name": "txdiy",
+    "type": "DOUBLE",
+    "description": "Income Taxes - Deferred",
+    "unit": "source_native; do not assume millions"
+  },
+  "txpdy": {
+    "name": "txpdy",
+    "type": "DOUBLE",
+    "description": "Income Taxes Paid",
+    "unit": "source_native; do not assume millions"
+  },
+  "txty": {
+    "name": "txty",
+    "type": "DOUBLE",
+    "description": "Income Taxes - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "txwy": {
+    "name": "txwy",
+    "type": "DOUBLE",
+    "description": "Excise Taxes",
+    "unit": "source_native; do not assume millions"
+  },
+  "uaolochy": {
+    "name": "uaolochy",
+    "type": "DOUBLE",
+    "description": "Other Assets and Liabilities - Net Change",
+    "unit": "source_native; do not assume millions"
+  },
+  "udfccy": {
+    "name": "udfccy",
+    "type": "DOUBLE",
+    "description": "Deferred Fuel - Increase (Decrease) (Statement",
+    "unit": "source_native; do not assume millions"
+  },
+  "udvpy": {
+    "name": "udvpy",
+    "type": "DOUBLE",
+    "description": "Preferred Dividend Requirements - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "ufretsdy": {
+    "name": "ufretsdy",
+    "type": "DOUBLE",
+    "description": "Tot Funds Ret ofSec&STD (FOF)",
+    "unit": "source_native; do not assume millions"
+  },
+  "ugiy": {
+    "name": "ugiy",
+    "type": "DOUBLE",
+    "description": "Gross Income (Income Before Interest Charges) -",
+    "unit": "source_native; do not assume millions"
+  },
+  "uniamiy": {
+    "name": "uniamiy",
+    "type": "DOUBLE",
+    "description": "Net Income before Extraordinary Items After",
+    "unit": "source_native; do not assume millions"
+  },
+  "unopincy": {
+    "name": "unopincy",
+    "type": "DOUBLE",
+    "description": "Nonoperating Income (Net) - Other - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "unwccy": {
+    "name": "unwccy",
+    "type": "DOUBLE",
+    "description": "Inc(Dec)Working Cap (FOF)",
+    "unit": "source_native; do not assume millions"
+  },
+  "uoisy": {
+    "name": "uoisy",
+    "type": "DOUBLE",
+    "description": "Other Internal Sources - Net (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "updvpy": {
+    "name": "updvpy",
+    "type": "DOUBLE",
+    "description": "Preference Dividend Requirements - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "uptacy": {
+    "name": "uptacy",
+    "type": "DOUBLE",
+    "description": "Utility Plant - Gross Additions (Cash Flow)",
+    "unit": "source_native; do not assume millions"
+  },
+  "uspiy": {
+    "name": "uspiy",
+    "type": "DOUBLE",
+    "description": "Special Items - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "ustdncy": {
+    "name": "ustdncy",
+    "type": "DOUBLE",
+    "description": "Net Decr in ST Debt (FOF)",
+    "unit": "source_native; do not assume millions"
+  },
+  "usubdvpy": {
+    "name": "usubdvpy",
+    "type": "DOUBLE",
+    "description": "Subsidiary Preferred Dividends - Utility",
+    "unit": "source_native; do not assume millions"
+  },
+  "utfdocy": {
+    "name": "utfdocy",
+    "type": "DOUBLE",
+    "description": "Total Funds From Ops (FOF)",
+    "unit": "source_native; do not assume millions"
+  },
+  "utfoscy": {
+    "name": "utfoscy",
+    "type": "DOUBLE",
+    "description": "Tot Funds Frm Outside Sources (FOF)",
+    "unit": "source_native; do not assume millions"
+  },
+  "utmey": {
+    "name": "utmey",
+    "type": "DOUBLE",
+    "description": "Maintenance Expense - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "uwkcapcy": {
+    "name": "uwkcapcy",
+    "type": "DOUBLE",
+    "description": "Dec(Inc) in Working Capital (FOF)",
+    "unit": "source_native; do not assume millions"
+  },
+  "wcapchy": {
+    "name": "wcapchy",
+    "type": "DOUBLE",
+    "description": "Working Capital Changes - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "wcapcy": {
+    "name": "wcapcy",
+    "type": "DOUBLE",
+    "description": "Working Capital Change - Other -",
+    "unit": "source_native; do not assume millions"
+  },
+  "wday": {
+    "name": "wday",
+    "type": "DOUBLE",
+    "description": "Writedowns After-tax",
+    "unit": "source_native; do not assume millions"
+  },
+  "wddy": {
+    "name": "wddy",
+    "type": "DOUBLE",
+    "description": "Writedowns Diluted EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "wdepsy": {
+    "name": "wdepsy",
+    "type": "DOUBLE",
+    "description": "Writedowns Basic EPS Effect",
+    "unit": "source_native; do not assume millions"
+  },
+  "wdpy": {
+    "name": "wdpy",
+    "type": "DOUBLE",
+    "description": "Writedowns Pretax",
+    "unit": "source_native; do not assume millions"
+  },
+  "xidocy": {
+    "name": "xidocy",
+    "type": "DOUBLE",
+    "description": "Extraordinary Items and Discontinued",
+    "unit": "source_native; do not assume millions"
+  },
+  "xidoy": {
+    "name": "xidoy",
+    "type": "DOUBLE",
+    "description": "Extraordinary Items and Discontinued Operations",
+    "unit": "source_native; do not assume millions"
+  },
+  "xinty": {
+    "name": "xinty",
+    "type": "DOUBLE",
+    "description": "Interest and Related Expense- Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "xiy": {
+    "name": "xiy",
+    "type": "DOUBLE",
+    "description": "Extraordinary Items",
+    "unit": "source_native; do not assume millions"
+  },
+  "xopry": {
+    "name": "xopry",
+    "type": "DOUBLE",
+    "description": "Operating Expense- Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptdqpy": {
+    "name": "xoptdqpy",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Diluted Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptdy": {
+    "name": "xoptdy",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Diluted",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptepsqpy": {
+    "name": "xoptepsqpy",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Basic Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptepsy": {
+    "name": "xoptepsy",
+    "type": "DOUBLE",
+    "description": "Implied Option EPS Basic",
+    "unit": "source_native; do not assume millions"
+  },
+  "xoptqpy": {
+    "name": "xoptqpy",
+    "type": "DOUBLE",
+    "description": "Implied Option Expense Preliminary",
+    "unit": "source_native; do not assume millions"
+  },
+  "xopty": {
+    "name": "xopty",
+    "type": "DOUBLE",
+    "description": "Implied Option Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "xrdy": {
+    "name": "xrdy",
+    "type": "DOUBLE",
+    "description": "Research and Development Expense",
+    "unit": "source_native; do not assume millions"
+  },
+  "xsgay": {
+    "name": "xsgay",
+    "type": "DOUBLE",
+    "description": "Selling, General and Administrative Expenses",
+    "unit": "source_native; do not assume millions"
+  },
+  "adjex": {
+    "name": "adjex",
+    "type": "DOUBLE",
+    "description": "Cumulative Adjustment Factor by Ex-Date",
+    "unit": "source_native; do not assume millions"
+  },
+  "cshtrq": {
+    "name": "cshtrq",
+    "type": "DOUBLE",
+    "description": "Common Shares Traded - Quarter",
+    "unit": "millions_of_shares"
+  },
+  "dvpspq": {
+    "name": "dvpspq",
+    "type": "DOUBLE",
+    "description": "Dividends per Share - Pay Date - Quarter",
+    "unit": "source_native; do not assume millions"
+  },
+  "dvpsxq": {
+    "name": "dvpsxq",
+    "type": "DOUBLE",
+    "description": "Div per Share - Exdate - Quarter",
+    "unit": "source_native; do not assume millions"
+  },
+  "mkvaltq": {
+    "name": "mkvaltq",
+    "type": "DOUBLE",
+    "description": "Market Value - Total",
+    "unit": "source_native; do not assume millions"
+  },
+  "prccq": {
+    "name": "prccq",
+    "type": "DOUBLE",
+    "description": "Price Close - Quarter",
+    "unit": "currency_per_share; quote currency requires security verification"
+  },
+  "prchq": {
+    "name": "prchq",
+    "type": "DOUBLE",
+    "description": "Price High - Quarter",
+    "unit": "source_native; do not assume millions"
+  },
+  "prclq": {
+    "name": "prclq",
+    "type": "DOUBLE",
+    "description": "Price Low - Quarter",
+    "unit": "source_native; do not assume millions"
+  }
+}

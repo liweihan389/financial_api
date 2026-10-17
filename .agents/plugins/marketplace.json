@@ -1,0 +1,13 @@
+{
+  "name": "local-financial-data",
+  "interface": {"displayName": "本地财务工具"},
+  "plugins": [
+    {
+      "name": "market-fundamentals",
+      "source": {"source": "local", "path": "./plugin"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity",
+      "interface": {"displayName": "股市财务数据库", "shortDescription": "本机财务、PE 与历史筛选"}
+    }
+  ]
+}

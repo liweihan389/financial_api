@@ -1,0 +1,4 @@
+{
+  "companies": {},
+  "instructions": "Versioned manual evidence only. Company keys are ten-digit CIK. Optional periodic_6k_accessions maps accession to evidence. share_scale_by_period maps ISO period end to {ajex_equivalent: positive number, evidence: source citation}. Never use an ADR ratio as ajex_equivalent."
+}

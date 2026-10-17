@@ -1,0 +1,574 @@
+{
+  "atq": {
+    "tags": [
+      "us-gaap:Assets",
+      "ifrs-full:Assets"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:Assets",
+    "additive": false
+  },
+  "ltq": {
+    "tags": [
+      "us-gaap:Liabilities",
+      "ifrs-full:Liabilities"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:Liabilities",
+    "additive": false
+  },
+  "seqq": {
+    "tags": [
+      "us-gaap:StockholdersEquity",
+      "ifrs-full:EquityAttributableToOwnersOfParent"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:StockholdersEquity",
+    "additive": false
+  },
+  "ceqq": {
+    "tags": [
+      "us-gaap:CommonStockholdersEquity"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:CommonStockholdersEquity",
+    "additive": false
+  },
+  "actq": {
+    "tags": [
+      "us-gaap:AssetsCurrent",
+      "ifrs-full:CurrentAssets"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:AssetsCurrent",
+    "additive": false
+  },
+  "lctq": {
+    "tags": [
+      "us-gaap:LiabilitiesCurrent",
+      "ifrs-full:CurrentLiabilities"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:LiabilitiesCurrent",
+    "additive": false
+  },
+  "cheq": {
+    "tags": [
+      "us-gaap:CashCashEquivalentsAndShortTermInvestments"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:CashCashEquivalentsAndShortTermInvestments",
+    "additive": false
+  },
+  "rectq": {
+    "tags": [
+      "us-gaap:AccountsReceivableNetCurrent",
+      "ifrs-full:TradeAndOtherCurrentReceivables"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:AccountsReceivableNetCurrent",
+    "additive": false
+  },
+  "invtq": {
+    "tags": [
+      "us-gaap:InventoryNet",
+      "ifrs-full:Inventories"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:InventoryNet",
+    "additive": false
+  },
+  "ppentq": {
+    "tags": [
+      "us-gaap:PropertyPlantAndEquipmentNet",
+      "ifrs-full:PropertyPlantAndEquipment"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:PropertyPlantAndEquipmentNet",
+    "additive": false
+  },
+  "dlttq": {
+    "tags": [
+      "us-gaap:LongTermDebtNoncurrent"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:LongTermDebtNoncurrent",
+    "additive": false
+  },
+  "dlcq": {
+    "tags": [
+      "us-gaap:LongTermDebtCurrent"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:LongTermDebtCurrent",
+    "additive": false
+  },
+  "apq": {
+    "tags": [
+      "us-gaap:AccountsPayableCurrent"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:AccountsPayableCurrent",
+    "additive": false
+  },
+  "txpq": {
+    "tags": [
+      "us-gaap:IncomeTaxesPayable"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:IncomeTaxesPayable",
+    "additive": false
+  },
+  "gdwlq": {
+    "tags": [
+      "us-gaap:Goodwill",
+      "ifrs-full:Goodwill"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:Goodwill",
+    "additive": false
+  },
+  "intanq": {
+    "tags": [
+      "us-gaap:IntangibleAssetsNetIncludingGoodwill"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:IntangibleAssetsNetIncludingGoodwill",
+    "additive": false
+  },
+  "aoq": {
+    "tags": [
+      "us-gaap:OtherAssetsNoncurrent"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:OtherAssetsNoncurrent",
+    "additive": false
+  },
+  "loq": {
+    "tags": [
+      "us-gaap:OtherLiabilitiesNoncurrent"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:OtherLiabilitiesNoncurrent",
+    "additive": false
+  },
+  "pstkq": {
+    "tags": [
+      "us-gaap:PreferredStockValue"
+    ],
+    "kind": "instant",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:PreferredStockValue",
+    "additive": false
+  },
+  "niq": {
+    "tags": [
+      "us-gaap:NetIncomeLoss",
+      "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "parent_net_income",
+    "additive": true,
+    "tag_quality": {
+      "ifrs-full:ProfitLossAttributableToOwnersOfParent": "inferred"
+    }
+  },
+  "niy": {
+    "tags": [
+      "us-gaap:NetIncomeLoss",
+      "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "parent_net_income",
+    "additive": true,
+    "tag_quality": {
+      "ifrs-full:ProfitLossAttributableToOwnersOfParent": "inferred"
+    }
+  },
+  "ibq": {
+    "tags": [
+      "us-gaap:IncomeLossFromContinuingOperations"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:IncomeLossFromContinuingOperations",
+    "additive": true
+  },
+  "iby": {
+    "tags": [
+      "us-gaap:IncomeLossFromContinuingOperations"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:IncomeLossFromContinuingOperations",
+    "additive": true
+  },
+  "saleq": {
+    "tags": [
+      "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "us-gaap:SalesRevenueNet",
+      "us-gaap:Revenues",
+      "ifrs-full:Revenue"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "revenue",
+    "additive": true
+  },
+  "saley": {
+    "tags": [
+      "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "us-gaap:SalesRevenueNet",
+      "us-gaap:Revenues",
+      "ifrs-full:Revenue"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "revenue",
+    "additive": true
+  },
+  "revtq": {
+    "tags": [
+      "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "us-gaap:SalesRevenueNet",
+      "us-gaap:Revenues",
+      "ifrs-full:Revenue"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "revenue",
+    "additive": true
+  },
+  "revty": {
+    "tags": [
+      "us-gaap:RevenueFromContractWithCustomerExcludingAssessedTax",
+      "us-gaap:SalesRevenueNet",
+      "us-gaap:Revenues",
+      "ifrs-full:Revenue"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "revenue",
+    "additive": true
+  },
+  "cogsq": {
+    "tags": [
+      "us-gaap:CostOfRevenue",
+      "us-gaap:CostOfGoodsAndServicesSold",
+      "ifrs-full:CostOfSales"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "cost_of_revenue",
+    "additive": true
+  },
+  "cogsy": {
+    "tags": [
+      "us-gaap:CostOfRevenue",
+      "us-gaap:CostOfGoodsAndServicesSold",
+      "ifrs-full:CostOfSales"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "cost_of_revenue",
+    "additive": true
+  },
+  "oiadpq": {
+    "tags": [
+      "us-gaap:OperatingIncomeLoss",
+      "ifrs-full:ProfitLossFromOperatingActivities"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "operating_income",
+    "additive": true
+  },
+  "oiadpy": {
+    "tags": [
+      "us-gaap:OperatingIncomeLoss",
+      "ifrs-full:ProfitLossFromOperatingActivities"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "operating_income",
+    "additive": true
+  },
+  "xintq": {
+    "tags": [
+      "us-gaap:InterestExpense",
+      "ifrs-full:FinanceCosts"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:InterestExpense",
+    "additive": true
+  },
+  "xinty": {
+    "tags": [
+      "us-gaap:InterestExpense",
+      "ifrs-full:FinanceCosts"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:InterestExpense",
+    "additive": true
+  },
+  "txtq": {
+    "tags": [
+      "us-gaap:IncomeTaxExpenseBenefit",
+      "ifrs-full:IncomeTaxExpenseContinuingOperations"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:IncomeTaxExpenseBenefit",
+    "additive": true
+  },
+  "txty": {
+    "tags": [
+      "us-gaap:IncomeTaxExpenseBenefit",
+      "ifrs-full:IncomeTaxExpenseContinuingOperations"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:IncomeTaxExpenseBenefit",
+    "additive": true
+  },
+  "xrdq": {
+    "tags": [
+      "us-gaap:ResearchAndDevelopmentExpense"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:ResearchAndDevelopmentExpense",
+    "additive": true
+  },
+  "xrdy": {
+    "tags": [
+      "us-gaap:ResearchAndDevelopmentExpense"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:ResearchAndDevelopmentExpense",
+    "additive": true
+  },
+  "xsgaq": {
+    "tags": [
+      "us-gaap:SellingGeneralAndAdministrativeExpense"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:SellingGeneralAndAdministrativeExpense",
+    "additive": true
+  },
+  "xsgay": {
+    "tags": [
+      "us-gaap:SellingGeneralAndAdministrativeExpense"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:SellingGeneralAndAdministrativeExpense",
+    "additive": true
+  },
+  "dpq": {
+    "tags": [
+      "us-gaap:DepreciationDepletionAndAmortization"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:DepreciationDepletionAndAmortization",
+    "additive": true
+  },
+  "dpy": {
+    "tags": [
+      "us-gaap:DepreciationDepletionAndAmortization"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "us-gaap:DepreciationDepletionAndAmortization",
+    "additive": true
+  },
+  "capxy": {
+    "tags": [
+      "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:PaymentsToAcquirePropertyPlantAndEquipment",
+    "additive": true
+  },
+  "oancfy": {
+    "tags": [
+      "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+      "ifrs-full:CashFlowsFromUsedInOperatingActivities"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:NetCashProvidedByUsedInOperatingActivities",
+    "additive": true
+  },
+  "ivncfy": {
+    "tags": [
+      "us-gaap:NetCashProvidedByUsedInInvestingActivities",
+      "ifrs-full:CashFlowsFromUsedInInvestingActivities"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:NetCashProvidedByUsedInInvestingActivities",
+    "additive": true
+  },
+  "fincfy": {
+    "tags": [
+      "us-gaap:NetCashProvidedByUsedInFinancingActivities",
+      "ifrs-full:CashFlowsFromUsedInFinancingActivities"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "trusted",
+    "semantic": "us-gaap:NetCashProvidedByUsedInFinancingActivities",
+    "additive": true
+  },
+  "epsfiq": {
+    "tags": [
+      "us-gaap:EarningsPerShareDiluted"
+    ],
+    "kind": "duration",
+    "unit": "eps",
+    "quality": "trusted",
+    "semantic": "diluted_including_extraordinary",
+    "additive": false
+  },
+  "epsfiy": {
+    "tags": [
+      "us-gaap:EarningsPerShareDiluted"
+    ],
+    "kind": "duration",
+    "unit": "eps",
+    "quality": "trusted",
+    "semantic": "diluted_including_extraordinary",
+    "additive": false
+  },
+  "epspiq": {
+    "tags": [
+      "us-gaap:EarningsPerShareBasic"
+    ],
+    "kind": "duration",
+    "unit": "eps",
+    "quality": "trusted",
+    "semantic": "basic_including_extraordinary",
+    "additive": false
+  },
+  "epspiy": {
+    "tags": [
+      "us-gaap:EarningsPerShareBasic"
+    ],
+    "kind": "duration",
+    "unit": "eps",
+    "quality": "trusted",
+    "semantic": "basic_including_extraordinary",
+    "additive": false
+  },
+  "cshfdq": {
+    "tags": [
+      "us-gaap:WeightedAverageNumberOfDilutedSharesOutstanding"
+    ],
+    "kind": "duration",
+    "unit": "shares",
+    "quality": "trusted",
+    "semantic": "weighted_diluted_shares",
+    "additive": false
+  },
+  "cshprq": {
+    "tags": [
+      "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic"
+    ],
+    "kind": "duration",
+    "unit": "shares",
+    "quality": "trusted",
+    "semantic": "weighted_basic_shares",
+    "additive": false
+  },
+  "cshoq": {
+    "tags": [
+      "us-gaap:CommonStockSharesOutstanding"
+    ],
+    "kind": "instant",
+    "unit": "shares",
+    "quality": "trusted",
+    "semantic": "period_end_common_shares",
+    "additive": false
+  },
+  "ifrs_income_candidate": {
+    "tags": [
+      "ifrs-full:ProfitLossAttributableToOwnersOfParent"
+    ],
+    "kind": "duration",
+    "unit": "money",
+    "quality": "inferred",
+    "semantic": "ifrs-full:ProfitLossAttributableToOwnersOfParent",
+    "additive": true
+  }
+}

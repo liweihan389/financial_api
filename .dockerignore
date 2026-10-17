@@ -1,0 +1,11 @@
+**
+!Dockerfile
+!pyproject.toml
+!requirements.lock
+!src/
+!src/**
+src/**/__pycache__
+src/**/*.pyc
+src/**/*.duckdb*
+src/**/*.sqlite*
+src/**/settings.json

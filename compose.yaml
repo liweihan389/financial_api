@@ -1,0 +1,26 @@
+services:
+  financial-api:
+    image: ${FINANCIAL_IMAGE:-ghcr.io/liweihan389/financial_api:0.3.1}
+    build:
+      context: .
+      args:
+        VERSION: "0.3.1"
+    init: true
+    ports:
+      - "${FINANCIAL_BIND_ADDRESS:-127.0.0.1}:${FINANCIAL_PORT:-8765}:8765"
+    environment:
+      FINANCIAL_DATA_DIR: /data
+      FINANCIAL_API_TOKEN: "${FINANCIAL_API_TOKEN:?Configure FINANCIAL_API_TOKEN in .env}"
+      FINANCIAL_PUBLIC_URL: "${FINANCIAL_PUBLIC_URL:-http://127.0.0.1:8765}"
+      FINANCIAL_ALLOW_FULL_IMPORT: "${FINANCIAL_ALLOW_FULL_IMPORT:-1}"
+      SEC_USER_AGENT: "${SEC_USER_AGENT:-}"
+    volumes:
+      - financial-data:/data
+    restart: unless-stopped
+    stop_grace_period: 60s
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  financial-data:

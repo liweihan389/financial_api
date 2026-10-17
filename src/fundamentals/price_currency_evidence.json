@@ -1,0 +1,321 @@
+{
+  "checked_on": "2026-10-08",
+  "scope": "Exact price observations only; does not certify EPS, shares, ADR ratios or historical intervals. Published package keeps matching fingerprints only; no quote values.",
+  "records": [
+    {
+      "gvkey": "001690",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/AAPL/prices?startDate=2025-12-31&endDate=2025-12-31",
+      "price_hash": "d6217ae9959c57f71331338c7a0bfc4784e7151caf946b3ce4ae38c6a17e4ce4"
+    },
+    {
+      "gvkey": "012141",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/MSFT/prices?startDate=2025-12-31&endDate=2025-12-31",
+      "price_hash": "68cc7dee7990107ed9fb6360768b55a27d754323bdef7fb4cca41ad55a448c8a"
+    },
+    {
+      "gvkey": "117768",
+      "period": "2026-01-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2026-01-30",
+      "source_url": "https://api.tiingo.com/tiingo/daily/NVDA/prices?startDate=2026-01-30&endDate=2026-01-30",
+      "price_hash": "f4f4673036b5a61ea4b4649b45f4d08e1c8d9830a91ccd0e04779ad11a7f6fe9"
+    },
+    {
+      "gvkey": "160329",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/GOOGL/prices?startDate=2025-12-31&endDate=2025-12-31",
+      "price_hash": "d177035fd7b5d9a4551ba48e9ddc741492e1e37ccb9cbbca6116b2f9a5aca43d"
+    },
+    {
+      "gvkey": "064768",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/AMZN/prices?startDate=2025-12-31&endDate=2025-12-31",
+      "price_hash": "0308b0e78fa015ec7bc54e1f08b326a5fd7a970325f3bcca2aa9f62beb5adf3a"
+    },
+    {
+      "gvkey": "170617",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/META/prices?startDate=2025-12-31&endDate=2025-12-31",
+      "price_hash": "60018c1ba6e18edcd6a32cb4b117ae744b6745b383f58a05eda58b8144fcc7b1"
+    },
+    {
+      "gvkey": "043415",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/BIRK/prices?startDate=2025-12-31&endDate=2025-12-31",
+      "price_hash": "7a9c1cb08114e4a1f032b08834e82d5b5a9c42485cc501eb9f822f0f43bd5392"
+    },
+    {
+      "gvkey": "015582",
+      "period": "2026-01-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2026-01-30",
+      "source_url": "https://www.rns-pdf.londonstockexchange.com/rns/2148U_2-2026-2-24.pdf",
+      "price_hash": "e4ae752518cfbe82280586a245ae908204a2968acd80ed45cedbd0ac47addc25"
+    },
+    {
+      "gvkey": "015706",
+      "period": "2026-01-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2026-01-30",
+      "source_url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+      "price_hash": "f20194e22b4c6987d75b5552930d54d5bb9d4d4110f552c32ed0c8ad532f1cf3"
+    },
+    {
+      "gvkey": "015633",
+      "period": "2026-01-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2026-01-30",
+      "source_url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
+      "price_hash": "6a16c1229562b979dfa7fc30bcf931fcfb18475efd349acff704a4c454b15761"
+    },
+    {
+      "gvkey": "006135",
+      "period": "2025-12-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-12-31",
+      "source_url": "https://www.enbridge.com/investment-center/reports-and-sec-filings/-/media/Enb/Documents/Investor-Relations/2026/2026_Enbridge_MIC_English.pdf?hash=CE79040F78C5FC85BCC6E8022AFD16CF&rev=f53e2e7c309a4c22acabba500a6d625f",
+      "price_hash": "725b324828a635285fd3df3bf5795de7a600b0006a34bfd32203cbb4a6a9248c"
+    },
+    {
+      "gvkey": "006946",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/MGA/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "5f1129687b34e9ab19bb8c41dbce12400c7787e2d3564edba2814e3eb9c6f3b6"
+    },
+    {
+      "gvkey": "201395",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/TSM/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "3384c5ff111a1ceff5723856096415b1fee32aceb7fd7e2d23a0da7df454ecd8"
+    },
+    {
+      "gvkey": "015055",
+      "period": "2025-09-30",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-09-30",
+      "source_url": "https://www.cnrl.com/content/uploads/2026/03/CNQ_2025-AIF-March-25-2026.pdf",
+      "price_hash": "ce0e69466b2650abc033d1976ea043703009c7352be445df9ec885ff9f2c00ef"
+    },
+    {
+      "gvkey": "020530",
+      "period": "2025-09-30",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-09-30",
+      "source_url": "https://api.tiingo.com/tiingo/daily/BABA/prices?startDate=2025-09-23&endDate=2025-09-30",
+      "price_hash": "57fc4d106ac890bb350effc5303b64f5cbb896d09cf2004da438ef432a85b8a1"
+    },
+    {
+      "gvkey": "005691",
+      "period": "2025-09-30",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-09-30",
+      "source_url": "https://api.tiingo.com/tiingo/daily/HMC/prices?startDate=2025-09-23&endDate=2025-09-30",
+      "price_hash": "30e4da1ce0a2f9c8650bac675559285f32c398be0915ef67c015b8f584e1a61a"
+    },
+    {
+      "gvkey": "019661",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/TM/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "c18a7f9288b053bd1fd60ac9b9b0dfa1da2cfce4bf3ce2f364686d7c8cc700de"
+    },
+    {
+      "gvkey": "002369",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/BN/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "a221e5540fd225e369330dc0ee8f2bd318eefaf15d419ead49025e1c226daa93"
+    },
+    {
+      "gvkey": "012384",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/SHEL/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "282ff5202363c1c9ae274b10613eb7fd7ff45921df0ecb2dfa96678fe70c91ee"
+    },
+    {
+      "gvkey": "103487",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/SAP/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "d5e8c291dffde403568e2d1260c8d8fc70e8aff4ce5b90ebd4bedca129a78d54"
+    },
+    {
+      "gvkey": "023650",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/SHOP/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "383d37495173c6da7f1025aa33da71463892e6ea1ccbe70cda7f03860d5c688a"
+    },
+    {
+      "gvkey": "002696",
+      "period": "2025-12-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-12-31",
+      "source_url": "https://www.cn.ca/-/media/files/investors/investor-shareholder/information-circular-2026-en.pdf",
+      "price_hash": "4a30a83f99954d62baa3fbd1b0ec19641640620122dd37362f3c0fd834ec92c4"
+    },
+    {
+      "gvkey": "015070",
+      "period": "2025-12-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-12-31",
+      "source_url": "https://www.suncor.com/-/media/project/suncor/files/investor-centre/annual-report-2025/2025-annual-report-en.pdf",
+      "price_hash": "b644425a8ea02f6e109d549b57d3b02508755b89b5266a40b4757c46859f3338"
+    },
+    {
+      "gvkey": "008020",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/NVO/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "bc63c96de971c0f34bfdc6dfec44fa3a4922c28cd108562ad63c39da1c5e88d8"
+    },
+    {
+      "gvkey": "009818",
+      "period": "2025-09-30",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-09-30",
+      "source_url": "https://api.tiingo.com/tiingo/daily/SONY/prices?startDate=2025-09-23&endDate=2025-09-30",
+      "price_hash": "82ea393455b41207d87ce8522de40578cc06316645ca3662f16da089a54c71ea"
+    },
+    {
+      "gvkey": "015704",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/TRI/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "469e7c8e6d0c5c7219776034bcb534f1b56327c71d32b922116fb72b3b6d3bf9"
+    },
+    {
+      "gvkey": "061214",
+      "period": "2025-12-31",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-12-31",
+      "source_url": "https://api.tiingo.com/tiingo/daily/ASML/prices?startDate=2025-12-24&endDate=2025-12-31",
+      "price_hash": "94d3bd0cfbc55546d8248898f7f3dad02600c75f14475ed7430631803219b50f"
+    },
+    {
+      "gvkey": "002410",
+      "period": "2025-09-30",
+      "currency": "USD",
+      "market": "US-listed",
+      "trading_date": "2025-09-30",
+      "source_url": "https://api.tiingo.com/tiingo/daily/BP/prices?startDate=2025-09-23&endDate=2025-09-30",
+      "price_hash": "608c7916f91a8f2c3484883fb87ac2ebd2f3ae305e200ced317cac137ea5a2f5"
+    },
+    {
+      "gvkey": "002698",
+      "period": "2025-12-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-12-31",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/16875/000119312526124134/d13199dex991.htm",
+      "price_hash": "4d554b2b143d0ef5201738d94118f930dbbaf95abbd8668441186d7a819f253e"
+    },
+    {
+      "gvkey": "015582",
+      "period": "2025-01-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-01-31",
+      "source_url": "https://www.rns-pdf.londonstockexchange.com/rns/2148U_2-2026-2-24.pdf",
+      "price_hash": "962cb52e20242f4e492dab73b484ff63bbc6f760a9a7897afd03d531f001fd31"
+    },
+    {
+      "gvkey": "015582",
+      "period": "2025-10-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-10-31",
+      "source_url": "https://www.rns-pdf.londonstockexchange.com/rns/2148U_2-2026-2-24.pdf",
+      "price_hash": "62cd7c9b69b16313c19fa34bbee4f98abc0664f2d3dbdd167952cdf7b94f7385"
+    },
+    {
+      "gvkey": "015633",
+      "period": "2025-01-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-01-31",
+      "source_url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
+      "price_hash": "ea667db65e3095a810cd4b99b28205d361e64f4dc03acff58904a09490868c44"
+    },
+    {
+      "gvkey": "015633",
+      "period": "2025-10-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-10-31",
+      "source_url": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026q1_report.pdf",
+      "price_hash": "01ec9bd9106456c7d3849b01fc652defccd05d417699dbb383832bf2d74b82cc"
+    },
+    {
+      "gvkey": "015706",
+      "period": "2025-01-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-01-31",
+      "source_url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+      "price_hash": "2fea8859c1fd7ef244ffa2fd700c6f904c06d361235b9b7ee8576b9c81ee0cf5"
+    },
+    {
+      "gvkey": "015706",
+      "period": "2025-10-31",
+      "currency": "CAD",
+      "market": "TSX",
+      "trading_date": "2025-10-31",
+      "source_url": "https://www.td.com/content/dam/tdcom/canada/about-td/pdf/quarterly-results/2026/q1/2026-q1-report-shareholders-en.pdf",
+      "price_hash": "3f9c9be76fec8929a8311ed818582583e69a10366b4e3c142af2db062177c630"
+    }
+  ]
+}
